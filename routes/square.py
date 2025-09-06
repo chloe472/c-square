@@ -104,7 +104,7 @@ def _gain_of_cycle(cycle_nodes, edges_by_pair):
 
 def _bellman_ford_best_cycle(n, edges):
     """
-    Find any negative cycle (Part I helper) or best negative cycle (Part II runs this per source).
+    Find best arbitrage cycle.
     edges: list of (u, v, rate)
     Returns tuple (cycle_nodes, product_gain) or (None, None) if no arbitrage.
     """
@@ -118,14 +118,12 @@ def _bellman_ford_best_cycle(n, edges):
         w_edges.append((u, v, w))
         edges_by_pair[(u, v)] = r
 
-    # If no usable edges
     if not w_edges:
         return None, None
 
     best_cycle_nodes = None
-    best_gain = 1.0  # product
+    best_gain = 1.0
 
-    # Try each node as source to increase chance of catching the most negative cycle
     for src in range(n):
         dist = [float("inf")] * n
         par = [-1] * n
@@ -142,9 +140,10 @@ def _bellman_ford_best_cycle(n, edges):
             if not updated:
                 break
 
+        # Look for negative cycles
         changed_nodes = []
         for u, v, w in w_edges:
-            if dist[u] + w < dist[v] - 1e-12:  # small tolerance
+            if dist[u] + w < dist[v] - 1e-12:  # tolerance
                 par[v] = u
                 changed_nodes.append(v)
 
@@ -153,26 +152,12 @@ def _bellman_ford_best_cycle(n, edges):
             if cycle_nodes[0] != cycle_nodes[-1]:
                 cycle_nodes.append(cycle_nodes[0])
             gain = _gain_of_cycle(cycle_nodes, edges_by_pair)
-            if gain > best_gain + 1e-9:  # tolerance
-                best_gain = gain
-                best_cycle_nodes = cycle_nodes
-
-
-        if changed_node != -1:
-            cycle_nodes = _extract_cycle(par, changed_node, n)
-            # Ensure cycle is closed (repeat first at end)
-            if cycle_nodes[0] != cycle_nodes[-1]:
-                cycle_nodes = cycle_nodes + [cycle_nodes[0]]
-            gain = _gain_of_cycle(cycle_nodes, edges_by_pair)
-            if gain > best_gain:
+            if gain > best_gain + 1e-9:
                 best_gain = gain
                 best_cycle_nodes = cycle_nodes
 
     if best_cycle_nodes is None or best_gain <= 1.0000001:
         return None, None
-
-    return best_cycle_nodes, best_gain
-
 
     return best_cycle_nodes, best_gain
 
