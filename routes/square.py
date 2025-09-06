@@ -112,6 +112,8 @@ def investigate():
 '''
 # routes/square.py
 import logging
+import json
+from collections import OrderedDict
 from flask import request, jsonify
 from routes import app
 
@@ -122,17 +124,23 @@ logger = logging.getLogger(__name__)
 def investigate():
     """
     Return, for each network, all edges that are part of at least one cycle
-    (i.e., non-bridge edges). Accepts either:
-      1) {"networks": [ {...}, ... ]}   <-- original shape
-      2) [ {...}, ... ]                 <-- array at the root (grader shape)
+    (non-bridge edges). Accepts:
+      1) {"networks": [ {...}, ... ]}
+      2) [ {...}, ... ]
+      3) { "networkId": "...", "network": [ ... ] }
     """
     data = request.get_json(silent=True)
 
-    # Normalize payload
+    # Normalize payload shapes
     if isinstance(data, list):
         networks = data
-    elif isinstance(data, dict) and isinstance(data.get("networks"), list):
-        networks = data["networks"]
+    elif isinstance(data, dict):
+        if isinstance(data.get("networks"), list):
+            networks = data["networks"]
+        elif "networkId" in data and "network" in data:
+            networks = [data]
+        else:
+            return jsonify({"error": "Invalid payload format"}), 400
     else:
         return jsonify({"error": "Invalid payload format"}), 400
 
@@ -149,8 +157,8 @@ def investigate():
                 idx[name] = len(idx)
             return idx[name]
 
-        # Build edge list with ids and adjacency including edge ids
-        edges = []  # list of (u, v, original_edge_dict)
+        # Edges and adjacency
+        edges = []
         for e in edges_raw:
             u = get_idx(e["spy1"])
             v = get_idx(e["spy2"])
@@ -162,7 +170,7 @@ def investigate():
             adj[u].append((v, eid))
             adj[v].append((u, eid))
 
-        # Tarjan's algorithm for bridges
+        # Tarjan's bridges
         time = 0
         disc = [-1] * n
         low = [0] * n
@@ -188,15 +196,22 @@ def investigate():
             if disc[u] == -1:
                 dfs(u, parent_eid=-1)
 
-        # Non-bridge edges are the "extra channels"
+        # Non-bridges are extra channels
         extra = []
         for eid, (_, _, orig) in enumerate(edges):
             if eid not in bridges:
                 extra.append(orig)
 
-        out_networks.append({
-            "networkId": network_id,
-            "extraChannels": extra
-        })
+        # Preserve key order: networkId first, then extraChannels
+        item = OrderedDict()
+        item["networkId"] = network_id
+        item["extraChannels"] = extra
+        out_networks.append(item)
 
-    return jsonify({"networks": out_networks}), 200
+    # Top-level also as OrderedDict to be safe
+    result = OrderedDict()
+    result["networks"] = out_networks
+
+    # Use json.dumps to preserve insertion order
+    return json.dumps(result), 200, {"Content-Type": "application/json"}
+
