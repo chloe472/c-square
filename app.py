@@ -4,11 +4,19 @@ import socket
 from routes import app
 
 logger = logging.getLogger(__name__)
-
+'''
 @app.route('/square', methods=['GET'])
 
 def default_route():
     return 'Python Template'
+'''
+@app.get("/")
+def root():
+    return "Spy Network API is live. Use POST /investigate", 200
+
+@app.get("/health")
+def health():
+    return "OK", 200
 
 logger = logging.getLogger()
 handler = logging.StreamHandler()
