@@ -6,7 +6,9 @@ from routes import app
 logger = logging.getLogger(__name__)
 
 
-@app.route('/', methods=['GET'])
+@app.route('/square', methods=['GET'])
+@app.route('/investigate', methods=['GET'])
+
 def default_route():
     return 'Python Template'
 
