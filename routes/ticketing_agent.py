@@ -24,7 +24,7 @@ def calculate_distance_points(distance):
     elif distance <= 0:
         return 30
     else:
-        return max(0, int(30 - (distance / 6) * 30))
+        return max(0, int(30 * (1 - (distance / 6) ** 0.7)))
 
 
 def calculate_customer_concert_points(customer, concert, priority_mapping):
