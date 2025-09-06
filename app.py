@@ -6,7 +6,7 @@ from routes import app
 logger = logging.getLogger(__name__)
 
 
-#@app.route("/", methods=["GET"])
+@app.route("/", methods=["GET"])
 def root():
     return "OK", 200
 
