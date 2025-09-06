@@ -160,8 +160,11 @@ def _bellman_ford_best_cycle(n, edges):
                 best_gain = gain
                 best_cycle_nodes = cycle_nodes
 
-    if best_cycle_nodes is None or best_gain <= 1.0:
+    if best_cycle_nodes is None or best_gain <= 1.0000001:
         return None, None
+
+    return best_cycle_nodes, best_gain
+
 
     return best_cycle_nodes, best_gain
 
