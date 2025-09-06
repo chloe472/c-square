@@ -95,6 +95,8 @@ def _impute_one(seq):
 # ---------- Endpoint ----------
 
 @app.route('/square', methods=['POST'])
+@app.route('/blankety', methods=['POST'])
+
 def evaluate():
     data = request.get_json()
     logging.info("data sent for evaluation %s", 
