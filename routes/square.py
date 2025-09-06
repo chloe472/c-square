@@ -142,13 +142,21 @@ def _bellman_ford_best_cycle(n, edges):
             if not updated:
                 break
 
-        # Check for negative cycle on nth iteration
-        changed_node = -1
+        changed_nodes = []
         for u, v, w in w_edges:
-            if dist[u] + w < dist[v]:
+            if dist[u] + w < dist[v] - 1e-12:  # small tolerance
                 par[v] = u
-                changed_node = v
-                break
+                changed_nodes.append(v)
+
+        for node in changed_nodes:
+            cycle_nodes = _extract_cycle(par, node, n)
+            if cycle_nodes[0] != cycle_nodes[-1]:
+                cycle_nodes.append(cycle_nodes[0])
+            gain = _gain_of_cycle(cycle_nodes, edges_by_pair)
+            if gain > best_gain + 1e-9:  # tolerance
+                best_gain = gain
+                best_cycle_nodes = cycle_nodes
+
 
         if changed_node != -1:
             cycle_nodes = _extract_cycle(par, changed_node, n)
