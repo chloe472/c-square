@@ -40,58 +40,72 @@ def solve_princess_diaries(data):
     for conn in subway:
         stations.update(conn['connection'])
     
-    # Compute shortest paths
     dist = shortest(list(stations), subway)
-    
-    # Sort tasks by start time
-    tasks_orig = {task['name']: task for task in tasks}
     tasks = sorted(tasks, key=lambda x: x['start'])
     n = len(tasks)
     
-    prev_compatible = [-1] * n
-    for i in range(n):
-        for j in range(i - 1, -1, -1):
-            if tasks[j]['end'] <= tasks[i]['start']:
-                prev_compatible[i] = j
-                break
+    memo = {}
+    parent = {}  
     
-    dp = [(0, 0, [], start_station)]  
-    
-    for i in range(n):
+    def dp(i, current_station):
+        """Returns (max_score, min_cost)"""
+        if i >= n:
+            return 0, dist[current_station][start_station]
+        
+        if (i, current_station) in memo:
+            return memo[(i, current_station)]
+        
+        skip_score, skip_cost = dp(i + 1, current_station)
+        best_score, best_cost = skip_score, skip_cost
+        best_choice = "skip"
+        best_next_i = i + 1
+        
         task = tasks[i]
+        travel_cost = dist[current_station][task['station']]
         
-        prev_score, prev_cost, prev_schedule, prev_station = dp[i]
-        best_score = prev_score
-        best_cost = prev_cost  
-        best_schedule = prev_schedule[:]
-        best_last_station = prev_station
+        next_i = i + 1
+        while next_i < n and tasks[next_i]['start'] < task['end']:
+            next_i += 1
         
-        if prev_compatible[i] == -1:
-            base_score, base_cost, base_schedule, base_station = 0, 0, [], start_station
+        take_future_score, take_future_cost = dp(next_i, task['station'])
+        take_score = task['score'] + take_future_score
+        take_cost = travel_cost + take_future_cost
+        
+        if (take_score > best_score or 
+            (take_score == best_score and take_cost < best_cost)):
+            best_score, best_cost = take_score, take_cost
+            best_choice = "take"
+            best_next_i = next_i
+        
+        memo[(i, current_station)] = (best_score, best_cost)
+        
+        if best_choice == "take":
+            parent[(i, current_station)] = ("take", best_next_i)
         else:
-            base_score, base_cost, base_schedule, base_station = dp[prev_compatible[i] + 1]
+            parent[(i, current_station)] = ("skip", best_next_i)
         
-        travel_cost = dist[base_station][task['station']]
-        new_score = base_score + task['score']
-        new_cost = base_cost + travel_cost
-        new_schedule = base_schedule + [task['name']]
-        new_last_station = task['station']
-        
-        if (new_score > best_score or 
-            (new_score == best_score and new_cost < best_cost)):
-            best_score = new_score
-            best_cost = new_cost
-            best_schedule = new_schedule
-            best_last_station = new_last_station
-        
-        dp.append((best_score, best_cost, best_schedule, best_last_station))
+        return best_score, best_cost
     
-    final_score, travel_cost, schedule, last_station = dp[n]
-    return_cost = dist[last_station][start_station]
+    max_score, min_fee = dp(0, start_station)
+    
+    schedule = []
+    i, current_station = 0, start_station
+    
+    while i < n:
+        if (i, current_station) not in parent:
+            break
+            
+        decision = parent[(i, current_station)]
+        if isinstance(decision, tuple) and decision[0] == "take":
+            schedule.append(tasks[i]['name'])
+            current_station = tasks[i]['station']
+            i = decision[1]
+        else:
+            i = decision[1] if isinstance(decision, tuple) else decision
     
     return {
-        "max_score": final_score,
-        "min_fee": travel_cost + return_cost,
+        "max_score": max_score,
+        "min_fee": min_fee,
         "schedule": schedule
     }
 
