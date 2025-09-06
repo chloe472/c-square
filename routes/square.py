@@ -29,7 +29,7 @@ from routes import app
 logger = logging.getLogger(__name__)
 
 
-@app.route('/investigate', methods=['POST'])
+@app.route('/square', methods=['POST'])
 def investigate():
     """
     Identify all edges that lie on at least one cycle (non-bridges) in each network.
