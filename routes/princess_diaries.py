@@ -46,6 +46,14 @@ def solve_princess_diaries(data):
     
     memo = {}
     parent = {}  
+
+    next_non_overlapping = [n] * n
+    for i in range(n):
+        task = tasks[i]
+        for j in range(i + 1, n):
+            if tasks[j]['start'] >= task['end']:
+                next_non_overlapping[i] = j
+                break
     
     def dp(i, current_station):
         """Returns (max_score, min_cost)"""
@@ -63,9 +71,7 @@ def solve_princess_diaries(data):
         task = tasks[i]
         travel_cost = dist[current_station][task['station']]
         
-        next_i = i + 1
-        while next_i < n and tasks[next_i]['start'] < task['end']:
-            next_i += 1
+        next_i = next_non_overlapping[i]
         
         take_future_score, take_future_cost = dp(next_i, task['station'])
         take_score = task['score'] + take_future_score
@@ -87,7 +93,7 @@ def solve_princess_diaries(data):
         return best_score, best_cost
     
     max_score, min_fee = dp(0, start_station)
-    
+
     schedule = []
     i, current_station = 0, start_station
     
