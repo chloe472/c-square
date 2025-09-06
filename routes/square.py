@@ -20,7 +20,6 @@ def evaluate():
 import json
 import logging
 import math
-from collections import defaultdict
 
 from flask import request
 from routes import app
@@ -44,7 +43,6 @@ def _normalize_payload(payload):
         goods1 = payload[1].get("goods", goods0)
         if goods0 is None:
             raise ValueError("Missing 'goods' in first item.")
-        # Prefer first goods list; assume second identical if omitted or same length
         goods = goods0
         edges1 = payload[0].get("rates", [])
         edges2 = payload[1].get("rates", [])
@@ -62,23 +60,19 @@ def _normalize_payload(payload):
 
 def _extract_cycle(parents, start_node, n_nodes):
     """
-    Given a parent array where a relaxation happened on the n-th iteration from start_node,
-    backtrack n times to enter the cycle, then loop until we see the start again.
-    Returns the cycle as a list of node indices in order (with the first node repeated at the end).
+    Backtrack to reconstruct the negative cycle.
     """
     x = start_node
     for _ in range(n_nodes):
         x = parents[x]
 
-    # Now x is guaranteed to be inside some cycle
     cycle = []
     seen = {}
     cur = x
     while True:
         if cur in seen:
             start_idx = seen[cur]
-            cycle_nodes = cycle[start_idx:] + [cur]  # close the loop by repeating start
-            # rotate so the repeated node is last and first is the true start
+            cycle_nodes = cycle[start_idx:] + [cur]
             return cycle_nodes
         seen[cur] = len(cycle)
         cycle.append(cur)
@@ -87,9 +81,7 @@ def _extract_cycle(parents, start_node, n_nodes):
 
 def _gain_of_cycle(cycle_nodes, edges_by_pair):
     """
-    cycle_nodes: [n0, n1, ..., nk, n0] (closing node repeated)
-    edges_by_pair: dict[(u,v)] = rate
-    Returns multiplicative gain (product of rates along the cycle).
+    Compute product of rates along cycle.
     """
     prod = 1.0
     for i in range(len(cycle_nodes) - 1):
@@ -104,11 +96,8 @@ def _gain_of_cycle(cycle_nodes, edges_by_pair):
 
 def _bellman_ford_best_cycle(n, edges):
     """
-    Find best arbitrage cycle.
-    edges: list of (u, v, rate)
-    Returns tuple (cycle_nodes, product_gain) or (None, None) if no arbitrage.
+    Find best arbitrage cycle using Bellman-Ford + -log trick.
     """
-    # Prepare weights and adjacency lookup
     w_edges = []
     edges_by_pair = {}
     for u, v, r in edges:
@@ -140,10 +129,10 @@ def _bellman_ford_best_cycle(n, edges):
             if not updated:
                 break
 
-        # Look for negative cycles
+        # Check for negative cycles
         changed_nodes = []
         for u, v, w in w_edges:
-            if dist[u] + w < dist[v] - 1e-12:  # tolerance
+            if dist[u] + w < dist[v] - 1e-9:  # looser tolerance
                 par[v] = u
                 changed_nodes.append(v)
 
@@ -152,11 +141,14 @@ def _bellman_ford_best_cycle(n, edges):
             if cycle_nodes[0] != cycle_nodes[-1]:
                 cycle_nodes.append(cycle_nodes[0])
             gain = _gain_of_cycle(cycle_nodes, edges_by_pair)
-            if gain > best_gain + 1e-9:
+            if gain > best_gain + 1e-6:
                 best_gain = gain
                 best_cycle_nodes = cycle_nodes
 
-    if best_cycle_nodes is None or best_gain <= 1.0000001:
+    logger.info("Best gain found: %s", best_gain)
+    logger.info("Best cycle nodes: %s", best_cycle_nodes)
+
+    if best_cycle_nodes is None or best_gain <= 1.0001:
         return None, None
 
     return best_cycle_nodes, best_gain
@@ -164,12 +156,8 @@ def _bellman_ford_best_cycle(n, edges):
 
 def _solve_one(goods, edges, want_best=True):
     """
-    goods: list of names
-    edges: list of [u, v, rate] triplets
-    want_best: if True, search best cycle; if False, return first found (but we reuse best finder anyway)
-    Returns dict with path (names) and gain*100, or a fallback with no arbitrage.
+    Solve one part of the challenge.
     """
-    # Clean & coerce edges
     coerced = []
     for e in edges:
         if not isinstance(e, (list, tuple)) or len(e) < 3:
@@ -192,10 +180,8 @@ def _solve_one(goods, edges, want_best=True):
     if not cycle_nodes:
         return {"path": [], "gain": 0}
 
-    # Map to names; ensure closed path (repeat start at end)
     path_names = [goods[i] for i in cycle_nodes]
     gain_percent = (product_gain - 1.0) * 100.0
-    # Round reasonably (specs say multiply by 100; we'll keep 4dp to be safe)
     gain_percent = round(gain_percent, 4)
 
     return {"path": path_names, "gain": gain_percent}
@@ -209,10 +195,7 @@ def the_ink_archive():
 
         goods, both_edges = _normalize_payload(data)
 
-        # Part I: any profitable spiral (we still pick the best we can find)
         part1 = _solve_one(goods, both_edges[0], want_best=False)
-
-        # Part II: max gain spiral
         part2 = _solve_one(goods, both_edges[1], want_best=True)
 
         result = [part1, part2]
