@@ -30,32 +30,79 @@ logger = logging.getLogger(__name__)
 def _normalize_payload(payload):
     """
     Accept either:
-      A) {"goods": [...], "rates": [edges_for_part1, edges_for_part2]}
-         where each edges_for_partX is [[u,v,rate], ...]
-      B) [{"goods": [...], "rates": [...]}, {"goods": [...], "rates": [...]}]
-    Returns: goods, [edges1, edges2]
+      A) {"goods": [...], "rates": [part1_rates, part2_rates]}
+         where each part*_rates is EITHER a list of [u,v,rate] OR an NxN matrix of rates
+      B) [{"goods": [...], "rates": ...}, {"goods": [...], "rates": ...}]
+    Returns: goods, [rates1, rates2] (raw; coercion done later)
     """
     if isinstance(payload, list):
-        # Case B
         if len(payload) != 2:
             raise ValueError("Top-level array must contain exactly two challenge items.")
         goods0 = payload[0].get("goods")
-        goods1 = payload[1].get("goods", goods0)
         if goods0 is None:
             raise ValueError("Missing 'goods' in first item.")
-        goods = goods0
-        edges1 = payload[0].get("rates", [])
-        edges2 = payload[1].get("rates", [])
-        return goods, [edges1, edges2]
+        rates1 = payload[0].get("rates", [])
+        rates2 = payload[1].get("rates", [])
+        return goods0, [rates1, rates2]
 
-    # Case A
     goods = payload.get("goods")
     rates = payload.get("rates")
     if goods is None or rates is None:
         raise ValueError("Payload must include 'goods' and 'rates'.")
-    if not isinstance(rates, list) or len(rates) < 2 or not all(isinstance(x, list) for x in rates[:2]):
-        raise ValueError("Expected 'rates' to be a list with two lists of [u,v,rate] edges for the two challenges.")
+    if not isinstance(rates, list) or len(rates) < 2:
+        raise ValueError("Expected 'rates' to be a list with two items (part1, part2).")
     return goods, [rates[0], rates[1]]
+
+
+def _rates_to_edges(goods, rates_obj):
+    """
+    Convert a single part's 'rates' into canonical edge list [(u, v, r), ...].
+
+    Accepts:
+      - Edge list: [[u,v,rate], ...]
+      - NxN matrix: [[1, r01, ...], [r10, 1, ...], ...]
+    """
+    n = len(goods)
+    edges = []
+
+    # Detect adjacency matrix
+    is_matrix = (
+        isinstance(rates_obj, list)
+        and len(rates_obj) == n
+        and all(isinstance(row, list) for row in rates_obj)
+        and all(len(row) == len(rates_obj[0]) for row in rates_obj)
+    )
+
+    if is_matrix:
+        # Treat any positive entry as an edge; usually diagonal is 1.0
+        for i in range(n):
+            row = rates_obj[i]
+            mcols = len(row)
+            # Allow rectangular but prefer square; cap at n columns
+            for j in range(min(n, mcols)):
+                try:
+                    r = float(row[j])
+                except Exception:
+                    continue
+                if j == i:
+                    continue  # ignore self-edge
+                if r > 0:
+                    edges.append((i, j, r))
+        return edges
+
+    # Otherwise assume list of edges
+    if isinstance(rates_obj, list):
+        for e in rates_obj:
+            if not isinstance(e, (list, tuple)) or len(e) < 3:
+                continue
+            try:
+                u = int(e[0]); v = int(e[1]); r = float(e[2])
+            except Exception:
+                continue
+            if 0 <= u < n and 0 <= v < n and r > 0:
+                edges.append((u, v, r))
+
+    return edges
 
 
 def _gain_of_cycle(cycle_nodes, edges_by_pair):
@@ -73,7 +120,7 @@ def _gain_of_cycle(cycle_nodes, edges_by_pair):
 
 def _brute_force_best_cycle(n, edges):
     """
-    Brute-force all possible cycles up to length n.
+    Brute-force all simple cycles up to length n.
     Works well for small graphs (n <= 10).
     """
     edges_by_pair = {}
@@ -85,51 +132,36 @@ def _brute_force_best_cycle(n, edges):
     best_cycle = None
     best_gain = 1.0
 
+    # Try all cycle lengths >= 2
     for length in range(2, n + 1):
         for path in itertools.permutations(range(n), length):
-            # close the cycle
-            path = list(path) + [path[0]]
+            path = list(path) + [path[0]]  # close the loop
             prod = _gain_of_cycle(path, edges_by_pair)
             if prod > best_gain + 1e-9:
                 best_gain = prod
                 best_cycle = path
 
-    if best_cycle is None or best_gain <= 1.0001:
+    if best_cycle is None or best_gain <= 1.0000001:
         return None, None
 
     return best_cycle, best_gain
 
 
-def _solve_one(goods, edges, want_best=True):
+def _solve_one(goods, rates_obj):
     """
-    Solve one part of the challenge.
+    Solve one part: coerce rates to edges, find best arbitrage cycle, return path+gain*100.
     """
-    coerced = []
-    for e in edges:
-        if not isinstance(e, (list, tuple)) or len(e) < 3:
-            continue
-        try:
-            u = int(e[0])
-            v = int(e[1])
-            r = float(e[2])
-        except Exception:
-            continue
-        if 0 <= u < len(goods) and 0 <= v < len(goods) and r > 0:
-            coerced.append((u, v, r))
-
+    edges = _rates_to_edges(goods, rates_obj)
     n = len(goods)
-    if n == 0:
+    if n == 0 or not edges:
         return {"path": [], "gain": 0}
 
-    cycle_nodes, product_gain = _brute_force_best_cycle(n, coerced)
-
+    cycle_nodes, product_gain = _brute_force_best_cycle(n, edges)
     if not cycle_nodes:
         return {"path": [], "gain": 0}
 
     path_names = [goods[i] for i in cycle_nodes]
-    gain_percent = (product_gain - 1.0) * 100.0
-    gain_percent = round(gain_percent, 4)
-
+    gain_percent = round((product_gain - 1.0) * 100.0, 6)  # a bit more precision for judge
     return {"path": path_names, "gain": gain_percent}
 
 
@@ -139,10 +171,10 @@ def the_ink_archive():
         data = request.get_json(force=True, silent=False)
         logger.info("data sent for evaluation %s", data)
 
-        goods, both_edges = _normalize_payload(data)
+        goods, both_rates = _normalize_payload(data)
 
-        part1 = _solve_one(goods, both_edges[0], want_best=False)
-        part2 = _solve_one(goods, both_edges[1], want_best=True)
+        part1 = _solve_one(goods, both_rates[0])   # any profitable cycle (we return best)
+        part2 = _solve_one(goods, both_rates[1])   # maximum gain cycle
 
         result = [part1, part2]
         logger.info("My result: %s", result)
