@@ -19,7 +19,7 @@ def evaluate():
 '''
 import json
 import logging
-import math
+import itertools
 
 from flask import request
 from routes import app
@@ -58,31 +58,8 @@ def _normalize_payload(payload):
     return goods, [rates[0], rates[1]]
 
 
-def _extract_cycle(parents, start_node, n_nodes):
-    """
-    Backtrack to reconstruct the negative cycle.
-    """
-    x = start_node
-    for _ in range(n_nodes):
-        x = parents[x]
-
-    cycle = []
-    seen = {}
-    cur = x
-    while True:
-        if cur in seen:
-            start_idx = seen[cur]
-            cycle_nodes = cycle[start_idx:] + [cur]
-            return cycle_nodes
-        seen[cur] = len(cycle)
-        cycle.append(cur)
-        cur = parents[cur]
-
-
 def _gain_of_cycle(cycle_nodes, edges_by_pair):
-    """
-    Compute product of rates along cycle.
-    """
+    """Compute product of rates along cycle."""
     prod = 1.0
     for i in range(len(cycle_nodes) - 1):
         u = cycle_nodes[i]
@@ -94,64 +71,33 @@ def _gain_of_cycle(cycle_nodes, edges_by_pair):
     return prod
 
 
-def _bellman_ford_best_cycle(n, edges):
+def _brute_force_best_cycle(n, edges):
     """
-    Find best arbitrage cycle using Bellman-Ford + -log trick.
+    Brute-force all possible cycles up to length n.
+    Works well for small graphs (n <= 10).
     """
-    w_edges = []
     edges_by_pair = {}
     for u, v, r in edges:
         if r is None or r <= 0:
             continue
-        w = -math.log(r)
-        w_edges.append((u, v, w))
         edges_by_pair[(u, v)] = r
 
-    if not w_edges:
-        return None, None
-
-    best_cycle_nodes = None
+    best_cycle = None
     best_gain = 1.0
 
-    for src in range(n):
-        dist = [float("inf")] * n
-        par = [-1] * n
-        dist[src] = 0.0
+    for length in range(2, n + 1):
+        for path in itertools.permutations(range(n), length):
+            # close the cycle
+            path = list(path) + [path[0]]
+            prod = _gain_of_cycle(path, edges_by_pair)
+            if prod > best_gain + 1e-9:
+                best_gain = prod
+                best_cycle = path
 
-        # Relax n-1 times
-        for _ in range(n - 1):
-            updated = False
-            for u, v, w in w_edges:
-                if dist[u] + w < dist[v]:
-                    dist[v] = dist[u] + w
-                    par[v] = u
-                    updated = True
-            if not updated:
-                break
-
-        # Check for negative cycles
-        changed_nodes = []
-        for u, v, w in w_edges:
-            if dist[u] + w < dist[v] - 1e-9:  # looser tolerance
-                par[v] = u
-                changed_nodes.append(v)
-
-        for node in changed_nodes:
-            cycle_nodes = _extract_cycle(par, node, n)
-            if cycle_nodes[0] != cycle_nodes[-1]:
-                cycle_nodes.append(cycle_nodes[0])
-            gain = _gain_of_cycle(cycle_nodes, edges_by_pair)
-            if gain > best_gain + 1e-6:
-                best_gain = gain
-                best_cycle_nodes = cycle_nodes
-
-    logger.info("Best gain found: %s", best_gain)
-    logger.info("Best cycle nodes: %s", best_cycle_nodes)
-
-    if best_cycle_nodes is None or best_gain <= 1.0001:
+    if best_cycle is None or best_gain <= 1.0001:
         return None, None
 
-    return best_cycle_nodes, best_gain
+    return best_cycle, best_gain
 
 
 def _solve_one(goods, edges, want_best=True):
@@ -175,7 +121,7 @@ def _solve_one(goods, edges, want_best=True):
     if n == 0:
         return {"path": [], "gain": 0}
 
-    cycle_nodes, product_gain = _bellman_ford_best_cycle(n, coerced)
+    cycle_nodes, product_gain = _brute_force_best_cycle(n, coerced)
 
     if not cycle_nodes:
         return {"path": [], "gain": 0}
