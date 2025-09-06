@@ -1,3 +1,4 @@
+'''
 import logging
 import socket
 
@@ -5,10 +6,12 @@ from routes import app
 
 logger = logging.getLogger(__name__)
 '''
+'''
 @app.route('/square', methods=['GET'])
 
 def default_route():
     return 'Python Template'
+'''
 '''
 @app.get("/")
 def root():
@@ -33,4 +36,30 @@ if __name__ == "__main__":
     port = sock.getsockname()[1]
     sock.close()
     app.run(port=port)
+'''
+import os
+import logging
+from routes import app  # app is created in routes/__init__.py
 
+# Root and health check routes
+@app.get("/")
+def root():
+    return "Spy Network API is live. Use POST /investigate", 200
+
+@app.get("/health")
+def health():
+    return "OK", 200
+
+# Logging setup
+logger = logging.getLogger()
+handler = logging.StreamHandler()
+formatter = logging.Formatter(
+    '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+)
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+logger.setLevel(logging.INFO)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
