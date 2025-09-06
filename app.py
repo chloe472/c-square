@@ -4,13 +4,19 @@ import socket
 from routes import app
 
 logger = logging.getLogger(__name__)
+'''
+@app.route("/", methods=["GET"])
+def root():
+    return "OK", 200
 
-
+@app.route("/health", methods=["GET"])
+def health():
+    return "OK", 200
+'''
 @app.route('/square', methods=['GET'])
 
 def default_route():
     return 'Python Template'
-
 
 logger = logging.getLogger()
 handler = logging.StreamHandler()
