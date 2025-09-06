@@ -1,15 +1,12 @@
 import logging
-import socket
-
+import os
 from routes import app
 
 logger = logging.getLogger(__name__)
 
-
 @app.route('/', methods=['GET'])
 def default_route():
     return 'Python Template'
-
 
 logger = logging.getLogger()
 handler = logging.StreamHandler()
@@ -20,9 +17,5 @@ logger.addHandler(handler)
 logger.setLevel(logging.INFO)
 
 if __name__ == "__main__":
-    logging.info("Starting application ...")
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind(('localhost', 8080))
-    port = sock.getsockname()[1]
-    sock.close()
-    app.run(port=port)
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host='0.0.0.0', port=port)
