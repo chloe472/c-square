@@ -5,16 +5,7 @@ from routes import app
 
 logger = logging.getLogger(__name__)
 
-@app.route("/", methods=["GET"])
-def root():
-    return "OK", 200
-
-@app.route("/health", methods=["GET"])
-def health():
-    return "OK", 200
-
-
-#@app.route('/square', methods=['GET'])
+@app.route('/square', methods=['GET'])
 
 def default_route():
     return 'Python Template'
@@ -34,28 +25,4 @@ if __name__ == "__main__":
     port = sock.getsockname()[1]
     sock.close()
     app.run(port=port)
-
-import os
-import logging
-from routes import app  # app is created in routes/__init__.py
-
-# Optional health endpoints
-@app.get("/")
-def root():
-    return "OK", 200
-
-@app.get("/health")
-def health():
-    return "OK", 200
-
-# Logging
-logger = logging.getLogger()
-handler = logging.StreamHandler()
-handler.setFormatter(logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s'))
-logger.addHandler(handler)
-logger.setLevel(logging.INFO)
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
 
