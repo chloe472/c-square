@@ -90,9 +90,15 @@ def _impute_one(seq):
             smoothed[idx] = window_mean(a, b)
 
     # Ensure plain floats for JSON
-    return [float(v) for v in smoothed]
+    return [_to_numeric(v) for v in smoothed]
 
-# ---------- Endpoint ----------
+
+def _to_numeric(v, decimals=6):
+    """Round to a few decimals; if it's essentially an int, return int."""
+    x = round(float(v), decimals)
+    iv = int(x)
+    return iv if abs(x - iv) < 10**(-decimals) else x
+
 
 @app.route('/square', methods=['POST'])
 @app.route('/blankety', methods=['POST'])
