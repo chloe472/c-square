@@ -110,6 +110,7 @@ def investigate():
     logging.info("investigation result: %s", result)
     return json.dumps(result)
 '''
+# routes/square.py
 import logging
 from flask import request, jsonify
 from routes import app
@@ -120,18 +121,24 @@ logger = logging.getLogger(__name__)
 @app.route('/investigate', methods=['POST'])
 def investigate():
     """
-    Identify all edges that lie on at least one cycle (non-bridges) in each network.
-    Returns them as 'extraChannels' preserving the original input order.
+    Return, for each network, all edges that are part of at least one cycle
+    (i.e., non-bridge edges). Accepts either:
+      1) {"networks": [ {...}, ... ]}   <-- original shape
+      2) [ {...}, ... ]                 <-- array at the root (grader shape)
     """
-    data = request.get_json(silent=True) or {}
-    logger.info("data sent for investigation: %s", data)
+    data = request.get_json(silent=True)
 
-    if "networks" not in data or not isinstance(data["networks"], list):
-        return jsonify({"error": "Invalid payload: 'networks' must be a list"}), 400
+    # Normalize payload
+    if isinstance(data, list):
+        networks = data
+    elif isinstance(data, dict) and isinstance(data.get("networks"), list):
+        networks = data["networks"]
+    else:
+        return jsonify({"error": "Invalid payload format"}), 400
 
     out_networks = []
 
-    for net in data["networks"]:
+    for net in networks:
         network_id = net.get("networkId")
         edges_raw = net.get("network", [])
 
@@ -143,7 +150,7 @@ def investigate():
             return idx[name]
 
         # Build edge list with ids and adjacency including edge ids
-        edges = []  # list of (u, v, original_dict)
+        edges = []  # list of (u, v, original_edge_dict)
         for e in edges_raw:
             u = get_idx(e["spy1"])
             v = get_idx(e["spy2"])
@@ -152,11 +159,10 @@ def investigate():
         n = len(idx)
         adj = [[] for _ in range(n)]
         for eid, (u, v, _) in enumerate(edges):
-            # undirected: store edge id on both sides
             adj[u].append((v, eid))
             adj[v].append((u, eid))
 
-        # Tarjan's algorithm to find bridges.
+        # Tarjan's algorithm for bridges
         time = 0
         disc = [-1] * n
         low = [0] * n
@@ -182,7 +188,7 @@ def investigate():
             if disc[u] == -1:
                 dfs(u, parent_eid=-1)
 
-        # Extra channels = edges that are NOT bridges (i.e., part of at least one cycle)
+        # Non-bridge edges are the "extra channels"
         extra = []
         for eid, (_, _, orig) in enumerate(edges):
             if eid not in bridges:
@@ -193,7 +199,4 @@ def investigate():
             "extraChannels": extra
         })
 
-    result = {"networks": out_networks}
-    logger.info("investigation result: %s", result)
-    return jsonify(result), 200
-
+    return jsonify({"networks": out_networks}), 200
