@@ -1,0 +1,30 @@
+{
+  "customers": [
+    {
+      "name": "CUSTOMER_A",
+      "vip_status": false,
+      "location": [1, 1],
+      "credit_card": "CREDIT_CARD_1"
+    },
+    {
+      "name": "CUSTOMER_B",
+      "vip_status": false,
+      "location": [2, -3],
+      "credit_card": "CREDIT_CARD_2"
+    }
+  ],
+  "concerts": [
+    {
+      "name": "CONCERT_1",
+      "booking_center_location": [1, 5]
+    },
+    {
+      "name": "CONCERT_2",
+      "booking_center_location": [-5, -3]
+    }
+  ],
+  "priority": {
+    "CREDIT_CARD_1": "CONCERT_1",
+    "CREDIT_CARD_2": "CONCERT_2"
+  }
+}

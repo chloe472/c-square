@@ -1,0 +1,9728 @@
+{
+  "customers": [
+    {
+      "name": "CUSTOMER_1",
+      "vip_status": true,
+      "location": [
+        -335,
+        801
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_2",
+      "vip_status": true,
+      "location": [
+        92,
+        190
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_3",
+      "vip_status": false,
+      "location": [
+        592,
+        -431
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_4",
+      "vip_status": true,
+      "location": [
+        -856,
+        115
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_5",
+      "vip_status": true,
+      "location": [
+        -820,
+        200
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_6",
+      "vip_status": false,
+      "location": [
+        -15,
+        -30
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_7",
+      "vip_status": false,
+      "location": [
+        -127,
+        72
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_8",
+      "vip_status": false,
+      "location": [
+        -292,
+        -104
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_9",
+      "vip_status": true,
+      "location": [
+        -492,
+        -104
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_10",
+      "vip_status": false,
+      "location": [
+        -395,
+        -248
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_11",
+      "vip_status": false,
+      "location": [
+        -878,
+        702
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_12",
+      "vip_status": false,
+      "location": [
+        54,
+        740
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_13",
+      "vip_status": true,
+      "location": [
+        433,
+        -530
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_14",
+      "vip_status": true,
+      "location": [
+        -987,
+        -717
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_15",
+      "vip_status": false,
+      "location": [
+        -330,
+        775
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_16",
+      "vip_status": false,
+      "location": [
+        839,
+        -385
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_17",
+      "vip_status": false,
+      "location": [
+        -287,
+        -609
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_18",
+      "vip_status": true,
+      "location": [
+        709,
+        -317
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_19",
+      "vip_status": true,
+      "location": [
+        305,
+        417
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_20",
+      "vip_status": false,
+      "location": [
+        909,
+        -281
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_21",
+      "vip_status": true,
+      "location": [
+        150,
+        627
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_22",
+      "vip_status": true,
+      "location": [
+        -714,
+        -449
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_23",
+      "vip_status": false,
+      "location": [
+        387,
+        -566
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_24",
+      "vip_status": true,
+      "location": [
+        570,
+        -199
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_25",
+      "vip_status": true,
+      "location": [
+        606,
+        -402
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_26",
+      "vip_status": true,
+      "location": [
+        894,
+        -904
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_27",
+      "vip_status": true,
+      "location": [
+        327,
+        851
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_28",
+      "vip_status": true,
+      "location": [
+        466,
+        -884
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_29",
+      "vip_status": false,
+      "location": [
+        530,
+        437
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_30",
+      "vip_status": false,
+      "location": [
+        -921,
+        317
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_31",
+      "vip_status": false,
+      "location": [
+        -916,
+        310
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_32",
+      "vip_status": false,
+      "location": [
+        608,
+        103
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_33",
+      "vip_status": false,
+      "location": [
+        -258,
+        653
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_34",
+      "vip_status": false,
+      "location": [
+        -827,
+        -886
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_35",
+      "vip_status": false,
+      "location": [
+        -673,
+        329
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_36",
+      "vip_status": true,
+      "location": [
+        -706,
+        919
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_37",
+      "vip_status": false,
+      "location": [
+        393,
+        -217
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_38",
+      "vip_status": false,
+      "location": [
+        254,
+        705
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_39",
+      "vip_status": false,
+      "location": [
+        734,
+        398
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_40",
+      "vip_status": false,
+      "location": [
+        -5,
+        -679
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_41",
+      "vip_status": true,
+      "location": [
+        342,
+        641
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_42",
+      "vip_status": true,
+      "location": [
+        710,
+        -955
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_43",
+      "vip_status": true,
+      "location": [
+        404,
+        61
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_44",
+      "vip_status": false,
+      "location": [
+        644,
+        170
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_45",
+      "vip_status": false,
+      "location": [
+        390,
+        -45
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_46",
+      "vip_status": true,
+      "location": [
+        264,
+        -495
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_47",
+      "vip_status": false,
+      "location": [
+        -147,
+        164
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_48",
+      "vip_status": true,
+      "location": [
+        -309,
+        -424
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_49",
+      "vip_status": true,
+      "location": [
+        -697,
+        706
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_50",
+      "vip_status": false,
+      "location": [
+        42,
+        -729
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_51",
+      "vip_status": false,
+      "location": [
+        462,
+        -408
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_52",
+      "vip_status": false,
+      "location": [
+        -519,
+        944
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_53",
+      "vip_status": true,
+      "location": [
+        800,
+        -915
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_54",
+      "vip_status": true,
+      "location": [
+        786,
+        621
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_55",
+      "vip_status": true,
+      "location": [
+        -496,
+        705
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_56",
+      "vip_status": false,
+      "location": [
+        -349,
+        -957
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_57",
+      "vip_status": false,
+      "location": [
+        961,
+        -895
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_58",
+      "vip_status": false,
+      "location": [
+        622,
+        546
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_59",
+      "vip_status": false,
+      "location": [
+        -838,
+        714
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_60",
+      "vip_status": true,
+      "location": [
+        -104,
+        936
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_61",
+      "vip_status": false,
+      "location": [
+        -409,
+        -353
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_62",
+      "vip_status": true,
+      "location": [
+        22,
+        787
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_63",
+      "vip_status": false,
+      "location": [
+        673,
+        -392
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_64",
+      "vip_status": true,
+      "location": [
+        21,
+        282
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_65",
+      "vip_status": false,
+      "location": [
+        527,
+        686
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_66",
+      "vip_status": false,
+      "location": [
+        -687,
+        -407
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_67",
+      "vip_status": false,
+      "location": [
+        -172,
+        225
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_68",
+      "vip_status": false,
+      "location": [
+        908,
+        608
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_69",
+      "vip_status": false,
+      "location": [
+        -270,
+        364
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_70",
+      "vip_status": false,
+      "location": [
+        846,
+        749
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_71",
+      "vip_status": true,
+      "location": [
+        -726,
+        237
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_72",
+      "vip_status": true,
+      "location": [
+        -767,
+        411
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_73",
+      "vip_status": true,
+      "location": [
+        648,
+        -16
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_74",
+      "vip_status": false,
+      "location": [
+        26,
+        -70
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_75",
+      "vip_status": true,
+      "location": [
+        -276,
+        -792
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_76",
+      "vip_status": true,
+      "location": [
+        908,
+        665
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_77",
+      "vip_status": false,
+      "location": [
+        -827,
+        -294
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_78",
+      "vip_status": true,
+      "location": [
+        50,
+        -974
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_79",
+      "vip_status": true,
+      "location": [
+        -83,
+        605
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_80",
+      "vip_status": false,
+      "location": [
+        911,
+        -570
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_81",
+      "vip_status": true,
+      "location": [
+        -720,
+        522
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_82",
+      "vip_status": true,
+      "location": [
+        -494,
+        -190
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_83",
+      "vip_status": true,
+      "location": [
+        288,
+        -159
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_84",
+      "vip_status": true,
+      "location": [
+        -774,
+        -324
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_85",
+      "vip_status": false,
+      "location": [
+        -174,
+        -878
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_86",
+      "vip_status": true,
+      "location": [
+        -994,
+        434
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_87",
+      "vip_status": true,
+      "location": [
+        635,
+        -874
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_88",
+      "vip_status": false,
+      "location": [
+        716,
+        -694
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_89",
+      "vip_status": true,
+      "location": [
+        -660,
+        389
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_90",
+      "vip_status": true,
+      "location": [
+        219,
+        -523
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_91",
+      "vip_status": false,
+      "location": [
+        -624,
+        -438
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_92",
+      "vip_status": false,
+      "location": [
+        -729,
+        969
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_93",
+      "vip_status": true,
+      "location": [
+        -307,
+        -238
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_94",
+      "vip_status": false,
+      "location": [
+        -537,
+        67
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_95",
+      "vip_status": false,
+      "location": [
+        58,
+        176
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_96",
+      "vip_status": true,
+      "location": [
+        -887,
+        556
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_97",
+      "vip_status": false,
+      "location": [
+        567,
+        -994
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_98",
+      "vip_status": true,
+      "location": [
+        -537,
+        -75
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_99",
+      "vip_status": true,
+      "location": [
+        144,
+        -651
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_100",
+      "vip_status": false,
+      "location": [
+        355,
+        704
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_101",
+      "vip_status": true,
+      "location": [
+        839,
+        225
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_102",
+      "vip_status": false,
+      "location": [
+        -737,
+        -428
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_103",
+      "vip_status": false,
+      "location": [
+        -341,
+        421
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_104",
+      "vip_status": false,
+      "location": [
+        -519,
+        602
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_105",
+      "vip_status": true,
+      "location": [
+        -911,
+        870
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_106",
+      "vip_status": false,
+      "location": [
+        529,
+        -571
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_107",
+      "vip_status": false,
+      "location": [
+        897,
+        -80
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_108",
+      "vip_status": true,
+      "location": [
+        -603,
+        -543
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_109",
+      "vip_status": false,
+      "location": [
+        316,
+        794
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_110",
+      "vip_status": true,
+      "location": [
+        -737,
+        -863
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_111",
+      "vip_status": false,
+      "location": [
+        530,
+        558
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_112",
+      "vip_status": true,
+      "location": [
+        909,
+        -930
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_113",
+      "vip_status": false,
+      "location": [
+        -744,
+        -234
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_114",
+      "vip_status": true,
+      "location": [
+        964,
+        -518
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_115",
+      "vip_status": true,
+      "location": [
+        -398,
+        181
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_116",
+      "vip_status": false,
+      "location": [
+        659,
+        110
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_117",
+      "vip_status": false,
+      "location": [
+        -267,
+        957
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_118",
+      "vip_status": false,
+      "location": [
+        -347,
+        514
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_119",
+      "vip_status": true,
+      "location": [
+        320,
+        982
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_120",
+      "vip_status": true,
+      "location": [
+        300,
+        -5
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_121",
+      "vip_status": false,
+      "location": [
+        -588,
+        -678
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_122",
+      "vip_status": false,
+      "location": [
+        -689,
+        294
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_123",
+      "vip_status": false,
+      "location": [
+        126,
+        976
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_124",
+      "vip_status": true,
+      "location": [
+        498,
+        -958
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_125",
+      "vip_status": true,
+      "location": [
+        539,
+        -576
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_126",
+      "vip_status": false,
+      "location": [
+        919,
+        762
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_127",
+      "vip_status": true,
+      "location": [
+        -380,
+        -315
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_128",
+      "vip_status": false,
+      "location": [
+        53,
+        -961
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_129",
+      "vip_status": true,
+      "location": [
+        960,
+        -697
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_130",
+      "vip_status": false,
+      "location": [
+        536,
+        -63
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_131",
+      "vip_status": false,
+      "location": [
+        -123,
+        184
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_132",
+      "vip_status": true,
+      "location": [
+        -504,
+        257
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_133",
+      "vip_status": false,
+      "location": [
+        -232,
+        492
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_134",
+      "vip_status": true,
+      "location": [
+        -485,
+        190
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_135",
+      "vip_status": true,
+      "location": [
+        390,
+        363
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_136",
+      "vip_status": false,
+      "location": [
+        -681,
+        -896
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_137",
+      "vip_status": true,
+      "location": [
+        755,
+        -190
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_138",
+      "vip_status": false,
+      "location": [
+        504,
+        -412
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_139",
+      "vip_status": false,
+      "location": [
+        974,
+        -605
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_140",
+      "vip_status": true,
+      "location": [
+        93,
+        282
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_141",
+      "vip_status": false,
+      "location": [
+        236,
+        407
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_142",
+      "vip_status": false,
+      "location": [
+        -961,
+        -644
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_143",
+      "vip_status": false,
+      "location": [
+        463,
+        -382
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_144",
+      "vip_status": true,
+      "location": [
+        45,
+        17
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_145",
+      "vip_status": false,
+      "location": [
+        158,
+        639
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_146",
+      "vip_status": true,
+      "location": [
+        601,
+        -554
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_147",
+      "vip_status": true,
+      "location": [
+        -423,
+        379
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_148",
+      "vip_status": false,
+      "location": [
+        -830,
+        236
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_149",
+      "vip_status": true,
+      "location": [
+        -842,
+        820
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_150",
+      "vip_status": false,
+      "location": [
+        -537,
+        -228
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_151",
+      "vip_status": false,
+      "location": [
+        590,
+        625
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_152",
+      "vip_status": false,
+      "location": [
+        -936,
+        -844
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_153",
+      "vip_status": false,
+      "location": [
+        -519,
+        882
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_154",
+      "vip_status": false,
+      "location": [
+        43,
+        -196
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_155",
+      "vip_status": true,
+      "location": [
+        367,
+        430
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_156",
+      "vip_status": true,
+      "location": [
+        336,
+        -912
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_157",
+      "vip_status": true,
+      "location": [
+        168,
+        -225
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_158",
+      "vip_status": false,
+      "location": [
+        571,
+        822
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_159",
+      "vip_status": false,
+      "location": [
+        -330,
+        -97
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_160",
+      "vip_status": true,
+      "location": [
+        -438,
+        -634
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_161",
+      "vip_status": false,
+      "location": [
+        634,
+        -630
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_162",
+      "vip_status": true,
+      "location": [
+        -580,
+        414
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_163",
+      "vip_status": true,
+      "location": [
+        954,
+        -486
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_164",
+      "vip_status": false,
+      "location": [
+        873,
+        687
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_165",
+      "vip_status": false,
+      "location": [
+        278,
+        347
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_166",
+      "vip_status": false,
+      "location": [
+        145,
+        -809
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_167",
+      "vip_status": false,
+      "location": [
+        -653,
+        982
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_168",
+      "vip_status": true,
+      "location": [
+        -314,
+        -787
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_169",
+      "vip_status": true,
+      "location": [
+        36,
+        -412
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_170",
+      "vip_status": true,
+      "location": [
+        -999,
+        -772
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_171",
+      "vip_status": false,
+      "location": [
+        -196,
+        -734
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_172",
+      "vip_status": false,
+      "location": [
+        -338,
+        -669
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_173",
+      "vip_status": false,
+      "location": [
+        -3,
+        -823
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_174",
+      "vip_status": true,
+      "location": [
+        -713,
+        -124
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_175",
+      "vip_status": true,
+      "location": [
+        712,
+        663
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_176",
+      "vip_status": false,
+      "location": [
+        989,
+        -77
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_177",
+      "vip_status": false,
+      "location": [
+        42,
+        15
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_178",
+      "vip_status": true,
+      "location": [
+        525,
+        341
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_179",
+      "vip_status": true,
+      "location": [
+        109,
+        754
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_180",
+      "vip_status": true,
+      "location": [
+        581,
+        -822
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_181",
+      "vip_status": true,
+      "location": [
+        -811,
+        801
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_182",
+      "vip_status": false,
+      "location": [
+        926,
+        880
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_183",
+      "vip_status": true,
+      "location": [
+        -327,
+        -299
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_184",
+      "vip_status": false,
+      "location": [
+        645,
+        -558
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_185",
+      "vip_status": false,
+      "location": [
+        978,
+        -514
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_186",
+      "vip_status": false,
+      "location": [
+        983,
+        -230
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_187",
+      "vip_status": false,
+      "location": [
+        -140,
+        -371
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_188",
+      "vip_status": false,
+      "location": [
+        -956,
+        -925
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_189",
+      "vip_status": false,
+      "location": [
+        627,
+        571
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_190",
+      "vip_status": true,
+      "location": [
+        -854,
+        -560
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_191",
+      "vip_status": false,
+      "location": [
+        -678,
+        -514
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_192",
+      "vip_status": false,
+      "location": [
+        787,
+        -997
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_193",
+      "vip_status": true,
+      "location": [
+        -310,
+        -864
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_194",
+      "vip_status": true,
+      "location": [
+        -68,
+        821
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_195",
+      "vip_status": false,
+      "location": [
+        -712,
+        855
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_196",
+      "vip_status": true,
+      "location": [
+        908,
+        -854
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_197",
+      "vip_status": false,
+      "location": [
+        -457,
+        -867
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_198",
+      "vip_status": true,
+      "location": [
+        -152,
+        -674
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_199",
+      "vip_status": true,
+      "location": [
+        -979,
+        530
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_200",
+      "vip_status": false,
+      "location": [
+        829,
+        -554
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_201",
+      "vip_status": true,
+      "location": [
+        -286,
+        763
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_202",
+      "vip_status": false,
+      "location": [
+        182,
+        200
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_203",
+      "vip_status": false,
+      "location": [
+        592,
+        701
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_204",
+      "vip_status": false,
+      "location": [
+        -21,
+        -318
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_205",
+      "vip_status": true,
+      "location": [
+        -360,
+        -694
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_206",
+      "vip_status": true,
+      "location": [
+        -703,
+        -443
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_207",
+      "vip_status": true,
+      "location": [
+        -829,
+        -642
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_208",
+      "vip_status": false,
+      "location": [
+        -135,
+        -178
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_209",
+      "vip_status": false,
+      "location": [
+        -450,
+        738
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_210",
+      "vip_status": true,
+      "location": [
+        659,
+        752
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_211",
+      "vip_status": false,
+      "location": [
+        615,
+        846
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_212",
+      "vip_status": true,
+      "location": [
+        -404,
+        446
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_213",
+      "vip_status": true,
+      "location": [
+        196,
+        250
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_214",
+      "vip_status": true,
+      "location": [
+        -258,
+        861
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_215",
+      "vip_status": false,
+      "location": [
+        315,
+        841
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_216",
+      "vip_status": true,
+      "location": [
+        -551,
+        -913
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_217",
+      "vip_status": false,
+      "location": [
+        267,
+        768
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_218",
+      "vip_status": true,
+      "location": [
+        253,
+        883
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_219",
+      "vip_status": true,
+      "location": [
+        -612,
+        -671
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_220",
+      "vip_status": true,
+      "location": [
+        -397,
+        -123
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_221",
+      "vip_status": false,
+      "location": [
+        801,
+        552
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_222",
+      "vip_status": true,
+      "location": [
+        827,
+        -350
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_223",
+      "vip_status": false,
+      "location": [
+        -41,
+        -955
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_224",
+      "vip_status": false,
+      "location": [
+        -273,
+        932
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_225",
+      "vip_status": true,
+      "location": [
+        288,
+        812
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_226",
+      "vip_status": false,
+      "location": [
+        365,
+        846
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_227",
+      "vip_status": true,
+      "location": [
+        105,
+        998
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_228",
+      "vip_status": true,
+      "location": [
+        -467,
+        -590
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_229",
+      "vip_status": false,
+      "location": [
+        -409,
+        683
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_230",
+      "vip_status": true,
+      "location": [
+        574,
+        908
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_231",
+      "vip_status": false,
+      "location": [
+        -813,
+        -112
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_232",
+      "vip_status": false,
+      "location": [
+        551,
+        -265
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_233",
+      "vip_status": false,
+      "location": [
+        792,
+        691
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_234",
+      "vip_status": true,
+      "location": [
+        -898,
+        24
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_235",
+      "vip_status": false,
+      "location": [
+        939,
+        846
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_236",
+      "vip_status": false,
+      "location": [
+        582,
+        353
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_237",
+      "vip_status": true,
+      "location": [
+        906,
+        871
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_238",
+      "vip_status": true,
+      "location": [
+        575,
+        729
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_239",
+      "vip_status": false,
+      "location": [
+        -835,
+        -177
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_240",
+      "vip_status": true,
+      "location": [
+        245,
+        -842
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_241",
+      "vip_status": false,
+      "location": [
+        902,
+        -517
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_242",
+      "vip_status": true,
+      "location": [
+        318,
+        -419
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_243",
+      "vip_status": true,
+      "location": [
+        -260,
+        47
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_244",
+      "vip_status": true,
+      "location": [
+        579,
+        768
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_245",
+      "vip_status": true,
+      "location": [
+        66,
+        10
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_246",
+      "vip_status": false,
+      "location": [
+        -224,
+        -619
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_247",
+      "vip_status": true,
+      "location": [
+        -666,
+        -753
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_248",
+      "vip_status": true,
+      "location": [
+        -69,
+        194
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_249",
+      "vip_status": false,
+      "location": [
+        319,
+        393
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_250",
+      "vip_status": true,
+      "location": [
+        84,
+        281
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_251",
+      "vip_status": true,
+      "location": [
+        -337,
+        -392
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_252",
+      "vip_status": true,
+      "location": [
+        -126,
+        -414
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_253",
+      "vip_status": false,
+      "location": [
+        -546,
+        -69
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_254",
+      "vip_status": true,
+      "location": [
+        -348,
+        -542
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_255",
+      "vip_status": false,
+      "location": [
+        -605,
+        -205
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_256",
+      "vip_status": true,
+      "location": [
+        394,
+        -931
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_257",
+      "vip_status": true,
+      "location": [
+        -879,
+        526
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_258",
+      "vip_status": false,
+      "location": [
+        -845,
+        339
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_259",
+      "vip_status": false,
+      "location": [
+        108,
+        -934
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_260",
+      "vip_status": true,
+      "location": [
+        97,
+        -929
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_261",
+      "vip_status": true,
+      "location": [
+        185,
+        -609
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_262",
+      "vip_status": true,
+      "location": [
+        -142,
+        42
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_263",
+      "vip_status": true,
+      "location": [
+        -981,
+        550
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_264",
+      "vip_status": false,
+      "location": [
+        -196,
+        601
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_265",
+      "vip_status": true,
+      "location": [
+        -198,
+        644
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_266",
+      "vip_status": true,
+      "location": [
+        -651,
+        186
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_267",
+      "vip_status": false,
+      "location": [
+        -617,
+        -728
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_268",
+      "vip_status": true,
+      "location": [
+        122,
+        -470
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_269",
+      "vip_status": false,
+      "location": [
+        -553,
+        864
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_270",
+      "vip_status": false,
+      "location": [
+        748,
+        -402
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_271",
+      "vip_status": false,
+      "location": [
+        -631,
+        151
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_272",
+      "vip_status": false,
+      "location": [
+        -613,
+        -998
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_273",
+      "vip_status": true,
+      "location": [
+        -229,
+        -540
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_274",
+      "vip_status": true,
+      "location": [
+        -190,
+        745
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_275",
+      "vip_status": false,
+      "location": [
+        159,
+        -547
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_276",
+      "vip_status": true,
+      "location": [
+        -547,
+        -920
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_277",
+      "vip_status": false,
+      "location": [
+        -701,
+        -987
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_278",
+      "vip_status": false,
+      "location": [
+        -176,
+        661
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_279",
+      "vip_status": true,
+      "location": [
+        -242,
+        -234
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_280",
+      "vip_status": true,
+      "location": [
+        196,
+        669
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_281",
+      "vip_status": true,
+      "location": [
+        308,
+        673
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_282",
+      "vip_status": true,
+      "location": [
+        342,
+        -494
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_283",
+      "vip_status": true,
+      "location": [
+        -192,
+        610
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_284",
+      "vip_status": true,
+      "location": [
+        102,
+        190
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_285",
+      "vip_status": true,
+      "location": [
+        -545,
+        -560
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_286",
+      "vip_status": false,
+      "location": [
+        -727,
+        -13
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_287",
+      "vip_status": false,
+      "location": [
+        457,
+        520
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_288",
+      "vip_status": false,
+      "location": [
+        425,
+        -719
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_289",
+      "vip_status": false,
+      "location": [
+        -433,
+        -871
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_290",
+      "vip_status": true,
+      "location": [
+        -289,
+        -63
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_291",
+      "vip_status": false,
+      "location": [
+        -54,
+        486
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_292",
+      "vip_status": true,
+      "location": [
+        -441,
+        -254
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_293",
+      "vip_status": true,
+      "location": [
+        -205,
+        -912
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_294",
+      "vip_status": false,
+      "location": [
+        711,
+        -566
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_295",
+      "vip_status": true,
+      "location": [
+        -80,
+        396
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_296",
+      "vip_status": true,
+      "location": [
+        733,
+        -880
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_297",
+      "vip_status": true,
+      "location": [
+        -141,
+        -1000
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_298",
+      "vip_status": true,
+      "location": [
+        425,
+        559
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_299",
+      "vip_status": true,
+      "location": [
+        682,
+        -57
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_300",
+      "vip_status": false,
+      "location": [
+        -251,
+        338
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_301",
+      "vip_status": true,
+      "location": [
+        764,
+        -60
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_302",
+      "vip_status": true,
+      "location": [
+        -632,
+        772
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_303",
+      "vip_status": false,
+      "location": [
+        922,
+        32
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_304",
+      "vip_status": false,
+      "location": [
+        -731,
+        -871
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_305",
+      "vip_status": false,
+      "location": [
+        721,
+        -295
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_306",
+      "vip_status": true,
+      "location": [
+        925,
+        -402
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_307",
+      "vip_status": true,
+      "location": [
+        -755,
+        764
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_308",
+      "vip_status": false,
+      "location": [
+        903,
+        -796
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_309",
+      "vip_status": true,
+      "location": [
+        -227,
+        999
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_310",
+      "vip_status": false,
+      "location": [
+        615,
+        77
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_311",
+      "vip_status": false,
+      "location": [
+        825,
+        -406
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_312",
+      "vip_status": true,
+      "location": [
+        -84,
+        -983
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_313",
+      "vip_status": false,
+      "location": [
+        -721,
+        917
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_314",
+      "vip_status": true,
+      "location": [
+        128,
+        -459
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_315",
+      "vip_status": true,
+      "location": [
+        876,
+        650
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_316",
+      "vip_status": true,
+      "location": [
+        353,
+        861
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_317",
+      "vip_status": false,
+      "location": [
+        -902,
+        358
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_318",
+      "vip_status": false,
+      "location": [
+        -591,
+        991
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_319",
+      "vip_status": true,
+      "location": [
+        432,
+        975
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_320",
+      "vip_status": false,
+      "location": [
+        -713,
+        746
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_321",
+      "vip_status": false,
+      "location": [
+        425,
+        647
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_322",
+      "vip_status": true,
+      "location": [
+        480,
+        538
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_323",
+      "vip_status": false,
+      "location": [
+        -277,
+        -266
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_324",
+      "vip_status": false,
+      "location": [
+        -877,
+        -165
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_325",
+      "vip_status": false,
+      "location": [
+        361,
+        671
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_326",
+      "vip_status": false,
+      "location": [
+        -182,
+        67
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_327",
+      "vip_status": true,
+      "location": [
+        544,
+        -206
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_328",
+      "vip_status": false,
+      "location": [
+        308,
+        941
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_329",
+      "vip_status": true,
+      "location": [
+        -994,
+        779
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_330",
+      "vip_status": true,
+      "location": [
+        -455,
+        347
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_331",
+      "vip_status": true,
+      "location": [
+        -600,
+        112
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_332",
+      "vip_status": true,
+      "location": [
+        -691,
+        -581
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_333",
+      "vip_status": true,
+      "location": [
+        -621,
+        154
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_334",
+      "vip_status": true,
+      "location": [
+        -149,
+        -888
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_335",
+      "vip_status": true,
+      "location": [
+        -913,
+        461
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_336",
+      "vip_status": true,
+      "location": [
+        -430,
+        -205
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_337",
+      "vip_status": true,
+      "location": [
+        -451,
+        -623
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_338",
+      "vip_status": false,
+      "location": [
+        -471,
+        -985
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_339",
+      "vip_status": false,
+      "location": [
+        392,
+        677
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_340",
+      "vip_status": false,
+      "location": [
+        879,
+        -193
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_341",
+      "vip_status": false,
+      "location": [
+        -171,
+        262
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_342",
+      "vip_status": true,
+      "location": [
+        -992,
+        274
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_343",
+      "vip_status": true,
+      "location": [
+        259,
+        -486
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_344",
+      "vip_status": false,
+      "location": [
+        246,
+        -269
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_345",
+      "vip_status": false,
+      "location": [
+        697,
+        -6
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_346",
+      "vip_status": false,
+      "location": [
+        -374,
+        382
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_347",
+      "vip_status": false,
+      "location": [
+        569,
+        -616
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_348",
+      "vip_status": false,
+      "location": [
+        344,
+        595
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_349",
+      "vip_status": false,
+      "location": [
+        -63,
+        929
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_350",
+      "vip_status": true,
+      "location": [
+        -101,
+        38
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_351",
+      "vip_status": false,
+      "location": [
+        -905,
+        -186
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_352",
+      "vip_status": true,
+      "location": [
+        389,
+        -442
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_353",
+      "vip_status": true,
+      "location": [
+        -425,
+        730
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_354",
+      "vip_status": false,
+      "location": [
+        800,
+        -914
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_355",
+      "vip_status": true,
+      "location": [
+        756,
+        868
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_356",
+      "vip_status": true,
+      "location": [
+        578,
+        -336
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_357",
+      "vip_status": true,
+      "location": [
+        -527,
+        437
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_358",
+      "vip_status": false,
+      "location": [
+        744,
+        640
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_359",
+      "vip_status": false,
+      "location": [
+        -858,
+        76
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_360",
+      "vip_status": true,
+      "location": [
+        -440,
+        -465
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_361",
+      "vip_status": false,
+      "location": [
+        549,
+        -981
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_362",
+      "vip_status": true,
+      "location": [
+        966,
+        459
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_363",
+      "vip_status": false,
+      "location": [
+        25,
+        840
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_364",
+      "vip_status": true,
+      "location": [
+        217,
+        306
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_365",
+      "vip_status": true,
+      "location": [
+        215,
+        -741
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_366",
+      "vip_status": false,
+      "location": [
+        276,
+        -287
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_367",
+      "vip_status": true,
+      "location": [
+        -831,
+        682
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_368",
+      "vip_status": true,
+      "location": [
+        620,
+        -318
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_369",
+      "vip_status": false,
+      "location": [
+        296,
+        713
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_370",
+      "vip_status": false,
+      "location": [
+        -759,
+        528
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_371",
+      "vip_status": true,
+      "location": [
+        138,
+        220
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_372",
+      "vip_status": true,
+      "location": [
+        542,
+        -158
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_373",
+      "vip_status": false,
+      "location": [
+        -672,
+        665
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_374",
+      "vip_status": true,
+      "location": [
+        289,
+        534
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_375",
+      "vip_status": true,
+      "location": [
+        -291,
+        -462
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_376",
+      "vip_status": true,
+      "location": [
+        316,
+        -823
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_377",
+      "vip_status": true,
+      "location": [
+        576,
+        712
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_378",
+      "vip_status": false,
+      "location": [
+        -89,
+        631
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_379",
+      "vip_status": false,
+      "location": [
+        -842,
+        225
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_380",
+      "vip_status": true,
+      "location": [
+        -878,
+        -941
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_381",
+      "vip_status": false,
+      "location": [
+        271,
+        -433
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_382",
+      "vip_status": false,
+      "location": [
+        396,
+        308
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_383",
+      "vip_status": true,
+      "location": [
+        -858,
+        -787
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_384",
+      "vip_status": false,
+      "location": [
+        568,
+        -791
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_385",
+      "vip_status": true,
+      "location": [
+        -320,
+        154
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_386",
+      "vip_status": false,
+      "location": [
+        -727,
+        311
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_387",
+      "vip_status": false,
+      "location": [
+        -868,
+        -233
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_388",
+      "vip_status": false,
+      "location": [
+        959,
+        225
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_389",
+      "vip_status": true,
+      "location": [
+        -752,
+        -1
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_390",
+      "vip_status": false,
+      "location": [
+        806,
+        -331
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_391",
+      "vip_status": false,
+      "location": [
+        890,
+        317
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_392",
+      "vip_status": true,
+      "location": [
+        237,
+        989
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_393",
+      "vip_status": true,
+      "location": [
+        931,
+        440
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_394",
+      "vip_status": false,
+      "location": [
+        -981,
+        -124
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_395",
+      "vip_status": true,
+      "location": [
+        301,
+        267
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_396",
+      "vip_status": false,
+      "location": [
+        139,
+        269
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_397",
+      "vip_status": false,
+      "location": [
+        515,
+        664
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_398",
+      "vip_status": false,
+      "location": [
+        494,
+        -526
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_399",
+      "vip_status": true,
+      "location": [
+        -656,
+        -16
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_400",
+      "vip_status": false,
+      "location": [
+        291,
+        -83
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_401",
+      "vip_status": true,
+      "location": [
+        63,
+        281
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_402",
+      "vip_status": true,
+      "location": [
+        403,
+        -915
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_403",
+      "vip_status": false,
+      "location": [
+        361,
+        -815
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_404",
+      "vip_status": false,
+      "location": [
+        911,
+        -264
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_405",
+      "vip_status": true,
+      "location": [
+        114,
+        498
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_406",
+      "vip_status": true,
+      "location": [
+        -560,
+        217
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_407",
+      "vip_status": false,
+      "location": [
+        -744,
+        676
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_408",
+      "vip_status": false,
+      "location": [
+        620,
+        412
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_409",
+      "vip_status": true,
+      "location": [
+        -965,
+        581
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_410",
+      "vip_status": true,
+      "location": [
+        -63,
+        778
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_411",
+      "vip_status": false,
+      "location": [
+        -881,
+        621
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_412",
+      "vip_status": false,
+      "location": [
+        247,
+        -620
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_413",
+      "vip_status": true,
+      "location": [
+        354,
+        -488
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_414",
+      "vip_status": false,
+      "location": [
+        328,
+        -730
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_415",
+      "vip_status": false,
+      "location": [
+        414,
+        943
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_416",
+      "vip_status": true,
+      "location": [
+        520,
+        -795
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_417",
+      "vip_status": false,
+      "location": [
+        -827,
+        -213
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_418",
+      "vip_status": false,
+      "location": [
+        312,
+        -740
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_419",
+      "vip_status": true,
+      "location": [
+        827,
+        595
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_420",
+      "vip_status": false,
+      "location": [
+        -889,
+        -401
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_421",
+      "vip_status": true,
+      "location": [
+        -596,
+        984
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_422",
+      "vip_status": true,
+      "location": [
+        858,
+        392
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_423",
+      "vip_status": false,
+      "location": [
+        -201,
+        832
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_424",
+      "vip_status": false,
+      "location": [
+        -814,
+        -272
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_425",
+      "vip_status": true,
+      "location": [
+        -747,
+        -485
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_426",
+      "vip_status": true,
+      "location": [
+        -765,
+        921
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_427",
+      "vip_status": false,
+      "location": [
+        319,
+        -711
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_428",
+      "vip_status": false,
+      "location": [
+        502,
+        692
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_429",
+      "vip_status": true,
+      "location": [
+        919,
+        -643
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_430",
+      "vip_status": false,
+      "location": [
+        -557,
+        -586
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_431",
+      "vip_status": true,
+      "location": [
+        736,
+        -643
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_432",
+      "vip_status": true,
+      "location": [
+        239,
+        -55
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_433",
+      "vip_status": false,
+      "location": [
+        -563,
+        -174
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_434",
+      "vip_status": true,
+      "location": [
+        -763,
+        -473
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_435",
+      "vip_status": true,
+      "location": [
+        760,
+        179
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_436",
+      "vip_status": false,
+      "location": [
+        -731,
+        -980
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_437",
+      "vip_status": false,
+      "location": [
+        781,
+        156
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_438",
+      "vip_status": false,
+      "location": [
+        586,
+        -139
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_439",
+      "vip_status": false,
+      "location": [
+        -417,
+        -534
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_440",
+      "vip_status": false,
+      "location": [
+        839,
+        -263
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_441",
+      "vip_status": true,
+      "location": [
+        110,
+        -423
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_442",
+      "vip_status": true,
+      "location": [
+        340,
+        147
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_443",
+      "vip_status": true,
+      "location": [
+        269,
+        -236
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_444",
+      "vip_status": false,
+      "location": [
+        21,
+        282
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_445",
+      "vip_status": false,
+      "location": [
+        383,
+        -214
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_446",
+      "vip_status": true,
+      "location": [
+        -569,
+        410
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_447",
+      "vip_status": true,
+      "location": [
+        773,
+        -153
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_448",
+      "vip_status": false,
+      "location": [
+        -719,
+        992
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_449",
+      "vip_status": false,
+      "location": [
+        881,
+        -451
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_450",
+      "vip_status": false,
+      "location": [
+        660,
+        90
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_451",
+      "vip_status": false,
+      "location": [
+        -943,
+        569
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_452",
+      "vip_status": false,
+      "location": [
+        969,
+        -321
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_453",
+      "vip_status": true,
+      "location": [
+        -526,
+        -518
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_454",
+      "vip_status": true,
+      "location": [
+        2,
+        -809
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_455",
+      "vip_status": false,
+      "location": [
+        149,
+        78
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_456",
+      "vip_status": true,
+      "location": [
+        3,
+        -69
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_457",
+      "vip_status": false,
+      "location": [
+        735,
+        523
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_458",
+      "vip_status": false,
+      "location": [
+        -499,
+        -491
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_459",
+      "vip_status": true,
+      "location": [
+        -995,
+        -902
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_460",
+      "vip_status": true,
+      "location": [
+        300,
+        -677
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_461",
+      "vip_status": true,
+      "location": [
+        -762,
+        72
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_462",
+      "vip_status": true,
+      "location": [
+        -459,
+        692
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_463",
+      "vip_status": false,
+      "location": [
+        -59,
+        -40
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_464",
+      "vip_status": false,
+      "location": [
+        -903,
+        -719
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_465",
+      "vip_status": false,
+      "location": [
+        -316,
+        157
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_466",
+      "vip_status": true,
+      "location": [
+        -953,
+        -422
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_467",
+      "vip_status": true,
+      "location": [
+        -508,
+        171
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_468",
+      "vip_status": true,
+      "location": [
+        -358,
+        -539
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_469",
+      "vip_status": false,
+      "location": [
+        -678,
+        784
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_470",
+      "vip_status": false,
+      "location": [
+        -438,
+        51
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_471",
+      "vip_status": true,
+      "location": [
+        631,
+        775
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_472",
+      "vip_status": false,
+      "location": [
+        -633,
+        -159
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_473",
+      "vip_status": true,
+      "location": [
+        -991,
+        -412
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_474",
+      "vip_status": true,
+      "location": [
+        311,
+        -420
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_475",
+      "vip_status": true,
+      "location": [
+        571,
+        611
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_476",
+      "vip_status": false,
+      "location": [
+        -926,
+        604
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_477",
+      "vip_status": false,
+      "location": [
+        851,
+        -918
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_478",
+      "vip_status": false,
+      "location": [
+        -652,
+        -121
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_479",
+      "vip_status": true,
+      "location": [
+        904,
+        896
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_480",
+      "vip_status": false,
+      "location": [
+        -705,
+        -646
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_481",
+      "vip_status": true,
+      "location": [
+        420,
+        544
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_482",
+      "vip_status": false,
+      "location": [
+        52,
+        916
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_483",
+      "vip_status": false,
+      "location": [
+        -175,
+        -950
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_484",
+      "vip_status": false,
+      "location": [
+        -408,
+        286
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_485",
+      "vip_status": false,
+      "location": [
+        999,
+        -172
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_486",
+      "vip_status": true,
+      "location": [
+        848,
+        462
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_487",
+      "vip_status": false,
+      "location": [
+        554,
+        -173
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_488",
+      "vip_status": false,
+      "location": [
+        361,
+        -238
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_489",
+      "vip_status": false,
+      "location": [
+        847,
+        128
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_490",
+      "vip_status": true,
+      "location": [
+        -466,
+        973
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_491",
+      "vip_status": true,
+      "location": [
+        -364,
+        -321
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_492",
+      "vip_status": true,
+      "location": [
+        277,
+        -77
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_493",
+      "vip_status": false,
+      "location": [
+        671,
+        -952
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_494",
+      "vip_status": false,
+      "location": [
+        -611,
+        559
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_495",
+      "vip_status": false,
+      "location": [
+        -821,
+        196
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_496",
+      "vip_status": true,
+      "location": [
+        712,
+        868
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_497",
+      "vip_status": false,
+      "location": [
+        -565,
+        -92
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_498",
+      "vip_status": false,
+      "location": [
+        -119,
+        393
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_499",
+      "vip_status": false,
+      "location": [
+        -507,
+        -309
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_500",
+      "vip_status": true,
+      "location": [
+        522,
+        -608
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_501",
+      "vip_status": true,
+      "location": [
+        183,
+        -857
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_502",
+      "vip_status": false,
+      "location": [
+        663,
+        410
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_503",
+      "vip_status": true,
+      "location": [
+        998,
+        131
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_504",
+      "vip_status": true,
+      "location": [
+        -948,
+        -972
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_505",
+      "vip_status": true,
+      "location": [
+        -741,
+        -283
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_506",
+      "vip_status": true,
+      "location": [
+        553,
+        -652
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_507",
+      "vip_status": true,
+      "location": [
+        504,
+        -534
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_508",
+      "vip_status": true,
+      "location": [
+        414,
+        493
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_509",
+      "vip_status": true,
+      "location": [
+        922,
+        363
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_510",
+      "vip_status": false,
+      "location": [
+        305,
+        -467
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_511",
+      "vip_status": false,
+      "location": [
+        75,
+        883
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_512",
+      "vip_status": false,
+      "location": [
+        -267,
+        -731
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_513",
+      "vip_status": false,
+      "location": [
+        -775,
+        419
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_514",
+      "vip_status": false,
+      "location": [
+        -170,
+        470
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_515",
+      "vip_status": true,
+      "location": [
+        799,
+        775
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_516",
+      "vip_status": false,
+      "location": [
+        -477,
+        6
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_517",
+      "vip_status": true,
+      "location": [
+        750,
+        -323
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_518",
+      "vip_status": false,
+      "location": [
+        -756,
+        680
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_519",
+      "vip_status": false,
+      "location": [
+        817,
+        -603
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_520",
+      "vip_status": false,
+      "location": [
+        333,
+        19
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_521",
+      "vip_status": true,
+      "location": [
+        -95,
+        -214
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_522",
+      "vip_status": false,
+      "location": [
+        37,
+        -329
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_523",
+      "vip_status": true,
+      "location": [
+        -463,
+        -396
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_524",
+      "vip_status": false,
+      "location": [
+        -874,
+        111
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_525",
+      "vip_status": true,
+      "location": [
+        -560,
+        -514
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_526",
+      "vip_status": false,
+      "location": [
+        663,
+        -450
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_527",
+      "vip_status": false,
+      "location": [
+        852,
+        305
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_528",
+      "vip_status": true,
+      "location": [
+        -880,
+        821
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_529",
+      "vip_status": false,
+      "location": [
+        420,
+        -38
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_530",
+      "vip_status": false,
+      "location": [
+        -114,
+        953
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_531",
+      "vip_status": false,
+      "location": [
+        -564,
+        -34
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_532",
+      "vip_status": false,
+      "location": [
+        -344,
+        129
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_533",
+      "vip_status": false,
+      "location": [
+        803,
+        -547
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_534",
+      "vip_status": true,
+      "location": [
+        -711,
+        -312
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_535",
+      "vip_status": false,
+      "location": [
+        -605,
+        275
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_536",
+      "vip_status": false,
+      "location": [
+        -318,
+        765
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_537",
+      "vip_status": false,
+      "location": [
+        -935,
+        792
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_538",
+      "vip_status": true,
+      "location": [
+        555,
+        -734
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_539",
+      "vip_status": true,
+      "location": [
+        -544,
+        -598
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_540",
+      "vip_status": false,
+      "location": [
+        698,
+        -421
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_541",
+      "vip_status": true,
+      "location": [
+        -600,
+        407
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_542",
+      "vip_status": true,
+      "location": [
+        -198,
+        -181
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_543",
+      "vip_status": false,
+      "location": [
+        457,
+        765
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_544",
+      "vip_status": false,
+      "location": [
+        -649,
+        551
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_545",
+      "vip_status": false,
+      "location": [
+        -30,
+        468
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_546",
+      "vip_status": true,
+      "location": [
+        937,
+        239
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_547",
+      "vip_status": true,
+      "location": [
+        878,
+        75
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_548",
+      "vip_status": false,
+      "location": [
+        852,
+        -386
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_549",
+      "vip_status": false,
+      "location": [
+        524,
+        -849
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_550",
+      "vip_status": true,
+      "location": [
+        741,
+        -94
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_551",
+      "vip_status": false,
+      "location": [
+        -993,
+        -849
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_552",
+      "vip_status": true,
+      "location": [
+        -705,
+        -442
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_553",
+      "vip_status": true,
+      "location": [
+        311,
+        -480
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_554",
+      "vip_status": true,
+      "location": [
+        -283,
+        892
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_555",
+      "vip_status": false,
+      "location": [
+        343,
+        424
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_556",
+      "vip_status": true,
+      "location": [
+        -933,
+        899
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_557",
+      "vip_status": false,
+      "location": [
+        360,
+        905
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_558",
+      "vip_status": false,
+      "location": [
+        -435,
+        309
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_559",
+      "vip_status": false,
+      "location": [
+        626,
+        632
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_560",
+      "vip_status": true,
+      "location": [
+        -720,
+        607
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_561",
+      "vip_status": true,
+      "location": [
+        -80,
+        -58
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_562",
+      "vip_status": true,
+      "location": [
+        968,
+        757
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_563",
+      "vip_status": true,
+      "location": [
+        219,
+        191
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_564",
+      "vip_status": false,
+      "location": [
+        -659,
+        309
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_565",
+      "vip_status": true,
+      "location": [
+        -933,
+        -25
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_566",
+      "vip_status": true,
+      "location": [
+        462,
+        -455
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_567",
+      "vip_status": false,
+      "location": [
+        362,
+        793
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_568",
+      "vip_status": true,
+      "location": [
+        -276,
+        342
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_569",
+      "vip_status": true,
+      "location": [
+        933,
+        -857
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_570",
+      "vip_status": false,
+      "location": [
+        618,
+        546
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_571",
+      "vip_status": true,
+      "location": [
+        -770,
+        -350
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_572",
+      "vip_status": false,
+      "location": [
+        9,
+        556
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_573",
+      "vip_status": false,
+      "location": [
+        714,
+        748
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_574",
+      "vip_status": true,
+      "location": [
+        973,
+        861
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_575",
+      "vip_status": false,
+      "location": [
+        -713,
+        -464
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_576",
+      "vip_status": false,
+      "location": [
+        -558,
+        125
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_577",
+      "vip_status": false,
+      "location": [
+        -784,
+        -562
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_578",
+      "vip_status": false,
+      "location": [
+        -181,
+        827
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_579",
+      "vip_status": true,
+      "location": [
+        -725,
+        233
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_580",
+      "vip_status": true,
+      "location": [
+        -218,
+        89
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_581",
+      "vip_status": true,
+      "location": [
+        4,
+        777
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_582",
+      "vip_status": false,
+      "location": [
+        -389,
+        -632
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_583",
+      "vip_status": true,
+      "location": [
+        -636,
+        -24
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_584",
+      "vip_status": true,
+      "location": [
+        -544,
+        -779
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_585",
+      "vip_status": false,
+      "location": [
+        -506,
+        -309
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_586",
+      "vip_status": false,
+      "location": [
+        980,
+        953
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_587",
+      "vip_status": true,
+      "location": [
+        499,
+        474
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_588",
+      "vip_status": true,
+      "location": [
+        -828,
+        -197
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_589",
+      "vip_status": true,
+      "location": [
+        599,
+        -490
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_590",
+      "vip_status": false,
+      "location": [
+        -915,
+        -777
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_591",
+      "vip_status": false,
+      "location": [
+        -496,
+        -794
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_592",
+      "vip_status": true,
+      "location": [
+        614,
+        -245
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_593",
+      "vip_status": true,
+      "location": [
+        -441,
+        570
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_594",
+      "vip_status": false,
+      "location": [
+        -110,
+        -647
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_595",
+      "vip_status": false,
+      "location": [
+        -310,
+        -299
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_596",
+      "vip_status": true,
+      "location": [
+        520,
+        319
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_597",
+      "vip_status": false,
+      "location": [
+        -363,
+        79
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_598",
+      "vip_status": true,
+      "location": [
+        -249,
+        -693
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_599",
+      "vip_status": true,
+      "location": [
+        -692,
+        -205
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_600",
+      "vip_status": false,
+      "location": [
+        -62,
+        915
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_601",
+      "vip_status": false,
+      "location": [
+        638,
+        170
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_602",
+      "vip_status": true,
+      "location": [
+        473,
+        -117
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_603",
+      "vip_status": true,
+      "location": [
+        -546,
+        247
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_604",
+      "vip_status": false,
+      "location": [
+        -682,
+        829
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_605",
+      "vip_status": true,
+      "location": [
+        -116,
+        836
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_606",
+      "vip_status": true,
+      "location": [
+        -161,
+        158
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_607",
+      "vip_status": false,
+      "location": [
+        -364,
+        -214
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_608",
+      "vip_status": true,
+      "location": [
+        -5,
+        -440
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_609",
+      "vip_status": false,
+      "location": [
+        34,
+        572
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_610",
+      "vip_status": false,
+      "location": [
+        -250,
+        -63
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_611",
+      "vip_status": false,
+      "location": [
+        -656,
+        61
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_612",
+      "vip_status": false,
+      "location": [
+        408,
+        -500
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_613",
+      "vip_status": false,
+      "location": [
+        576,
+        -543
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_614",
+      "vip_status": true,
+      "location": [
+        209,
+        611
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_615",
+      "vip_status": true,
+      "location": [
+        60,
+        722
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_616",
+      "vip_status": true,
+      "location": [
+        -401,
+        352
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_617",
+      "vip_status": true,
+      "location": [
+        -477,
+        -55
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_618",
+      "vip_status": false,
+      "location": [
+        872,
+        756
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_619",
+      "vip_status": false,
+      "location": [
+        -204,
+        356
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_620",
+      "vip_status": true,
+      "location": [
+        721,
+        724
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_621",
+      "vip_status": false,
+      "location": [
+        -630,
+        -179
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_622",
+      "vip_status": false,
+      "location": [
+        417,
+        -118
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_623",
+      "vip_status": true,
+      "location": [
+        -906,
+        609
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_624",
+      "vip_status": true,
+      "location": [
+        520,
+        -935
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_625",
+      "vip_status": true,
+      "location": [
+        -336,
+        -121
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_626",
+      "vip_status": true,
+      "location": [
+        -523,
+        223
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_627",
+      "vip_status": true,
+      "location": [
+        114,
+        129
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_628",
+      "vip_status": true,
+      "location": [
+        -260,
+        173
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_629",
+      "vip_status": false,
+      "location": [
+        -512,
+        -490
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_630",
+      "vip_status": true,
+      "location": [
+        812,
+        -513
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_631",
+      "vip_status": true,
+      "location": [
+        954,
+        486
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_632",
+      "vip_status": false,
+      "location": [
+        332,
+        -72
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_633",
+      "vip_status": true,
+      "location": [
+        -357,
+        -216
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_634",
+      "vip_status": false,
+      "location": [
+        871,
+        -412
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_635",
+      "vip_status": false,
+      "location": [
+        -149,
+        884
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_636",
+      "vip_status": false,
+      "location": [
+        886,
+        -639
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_637",
+      "vip_status": true,
+      "location": [
+        -780,
+        -694
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_638",
+      "vip_status": true,
+      "location": [
+        188,
+        512
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_639",
+      "vip_status": false,
+      "location": [
+        -925,
+        72
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_640",
+      "vip_status": false,
+      "location": [
+        -620,
+        -296
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_641",
+      "vip_status": false,
+      "location": [
+        599,
+        56
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_642",
+      "vip_status": true,
+      "location": [
+        -401,
+        -361
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_643",
+      "vip_status": true,
+      "location": [
+        -607,
+        550
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_644",
+      "vip_status": true,
+      "location": [
+        987,
+        -695
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_645",
+      "vip_status": false,
+      "location": [
+        -319,
+        -246
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_646",
+      "vip_status": false,
+      "location": [
+        -854,
+        760
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_647",
+      "vip_status": false,
+      "location": [
+        836,
+        -714
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_648",
+      "vip_status": false,
+      "location": [
+        -930,
+        -675
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_649",
+      "vip_status": true,
+      "location": [
+        -153,
+        277
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_650",
+      "vip_status": false,
+      "location": [
+        727,
+        -365
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_651",
+      "vip_status": false,
+      "location": [
+        -73,
+        -634
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_652",
+      "vip_status": true,
+      "location": [
+        353,
+        32
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_653",
+      "vip_status": false,
+      "location": [
+        264,
+        -231
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_654",
+      "vip_status": true,
+      "location": [
+        962,
+        57
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_655",
+      "vip_status": false,
+      "location": [
+        -243,
+        465
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_656",
+      "vip_status": false,
+      "location": [
+        103,
+        -248
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_657",
+      "vip_status": true,
+      "location": [
+        -962,
+        -158
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_658",
+      "vip_status": true,
+      "location": [
+        -625,
+        -904
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_659",
+      "vip_status": true,
+      "location": [
+        -226,
+        -694
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_660",
+      "vip_status": true,
+      "location": [
+        -328,
+        793
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_661",
+      "vip_status": true,
+      "location": [
+        935,
+        667
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_662",
+      "vip_status": true,
+      "location": [
+        68,
+        -568
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_663",
+      "vip_status": false,
+      "location": [
+        524,
+        -979
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_664",
+      "vip_status": true,
+      "location": [
+        -809,
+        -636
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_665",
+      "vip_status": true,
+      "location": [
+        384,
+        598
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_666",
+      "vip_status": false,
+      "location": [
+        -874,
+        -736
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_667",
+      "vip_status": true,
+      "location": [
+        -461,
+        737
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_668",
+      "vip_status": false,
+      "location": [
+        65,
+        381
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_669",
+      "vip_status": false,
+      "location": [
+        160,
+        -883
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_670",
+      "vip_status": true,
+      "location": [
+        -654,
+        469
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_671",
+      "vip_status": true,
+      "location": [
+        246,
+        512
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_672",
+      "vip_status": false,
+      "location": [
+        -690,
+        -846
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_673",
+      "vip_status": true,
+      "location": [
+        290,
+        -357
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_674",
+      "vip_status": false,
+      "location": [
+        -572,
+        -790
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_675",
+      "vip_status": false,
+      "location": [
+        -345,
+        112
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_676",
+      "vip_status": false,
+      "location": [
+        154,
+        -505
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_677",
+      "vip_status": true,
+      "location": [
+        519,
+        28
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_678",
+      "vip_status": false,
+      "location": [
+        -693,
+        -142
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_679",
+      "vip_status": true,
+      "location": [
+        -633,
+        -621
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_680",
+      "vip_status": false,
+      "location": [
+        43,
+        743
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_681",
+      "vip_status": false,
+      "location": [
+        994,
+        -259
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_682",
+      "vip_status": false,
+      "location": [
+        -763,
+        774
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_683",
+      "vip_status": true,
+      "location": [
+        -679,
+        6
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_684",
+      "vip_status": true,
+      "location": [
+        20,
+        -323
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_685",
+      "vip_status": false,
+      "location": [
+        -764,
+        990
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_686",
+      "vip_status": false,
+      "location": [
+        -437,
+        877
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_687",
+      "vip_status": false,
+      "location": [
+        -217,
+        -702
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_688",
+      "vip_status": false,
+      "location": [
+        -652,
+        -556
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_689",
+      "vip_status": true,
+      "location": [
+        -215,
+        -486
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_690",
+      "vip_status": false,
+      "location": [
+        62,
+        -689
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_691",
+      "vip_status": false,
+      "location": [
+        744,
+        696
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_692",
+      "vip_status": false,
+      "location": [
+        -683,
+        495
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_693",
+      "vip_status": false,
+      "location": [
+        -575,
+        -467
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_694",
+      "vip_status": true,
+      "location": [
+        136,
+        -239
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_695",
+      "vip_status": true,
+      "location": [
+        -129,
+        -567
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_696",
+      "vip_status": true,
+      "location": [
+        -666,
+        -831
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_697",
+      "vip_status": true,
+      "location": [
+        92,
+        -317
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_698",
+      "vip_status": true,
+      "location": [
+        465,
+        491
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_699",
+      "vip_status": true,
+      "location": [
+        -603,
+        -731
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_700",
+      "vip_status": true,
+      "location": [
+        -351,
+        -598
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_701",
+      "vip_status": true,
+      "location": [
+        -995,
+        -217
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_702",
+      "vip_status": true,
+      "location": [
+        215,
+        -751
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_703",
+      "vip_status": true,
+      "location": [
+        -490,
+        -136
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_704",
+      "vip_status": true,
+      "location": [
+        722,
+        -211
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_705",
+      "vip_status": false,
+      "location": [
+        -690,
+        839
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_706",
+      "vip_status": false,
+      "location": [
+        36,
+        305
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_707",
+      "vip_status": false,
+      "location": [
+        30,
+        -618
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_708",
+      "vip_status": false,
+      "location": [
+        -161,
+        -395
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_709",
+      "vip_status": true,
+      "location": [
+        -834,
+        -99
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_710",
+      "vip_status": false,
+      "location": [
+        -458,
+        -645
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_711",
+      "vip_status": false,
+      "location": [
+        -554,
+        36
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_712",
+      "vip_status": false,
+      "location": [
+        -840,
+        399
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_713",
+      "vip_status": false,
+      "location": [
+        863,
+        93
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_714",
+      "vip_status": true,
+      "location": [
+        336,
+        -515
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_715",
+      "vip_status": true,
+      "location": [
+        -727,
+        -932
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_716",
+      "vip_status": false,
+      "location": [
+        627,
+        316
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_717",
+      "vip_status": true,
+      "location": [
+        807,
+        4
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_718",
+      "vip_status": false,
+      "location": [
+        588,
+        -468
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_719",
+      "vip_status": true,
+      "location": [
+        322,
+        957
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_720",
+      "vip_status": false,
+      "location": [
+        848,
+        455
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_721",
+      "vip_status": true,
+      "location": [
+        -881,
+        -879
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_722",
+      "vip_status": false,
+      "location": [
+        498,
+        710
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_723",
+      "vip_status": true,
+      "location": [
+        600,
+        -94
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_724",
+      "vip_status": false,
+      "location": [
+        666,
+        484
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_725",
+      "vip_status": true,
+      "location": [
+        -375,
+        758
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_726",
+      "vip_status": false,
+      "location": [
+        167,
+        213
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_727",
+      "vip_status": false,
+      "location": [
+        -158,
+        -838
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_728",
+      "vip_status": true,
+      "location": [
+        -24,
+        220
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_729",
+      "vip_status": true,
+      "location": [
+        918,
+        779
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_730",
+      "vip_status": true,
+      "location": [
+        240,
+        -24
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_731",
+      "vip_status": true,
+      "location": [
+        -464,
+        -466
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_732",
+      "vip_status": false,
+      "location": [
+        -778,
+        260
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_733",
+      "vip_status": true,
+      "location": [
+        -282,
+        -325
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_734",
+      "vip_status": true,
+      "location": [
+        508,
+        703
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_735",
+      "vip_status": true,
+      "location": [
+        -879,
+        43
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_736",
+      "vip_status": false,
+      "location": [
+        -905,
+        -960
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_737",
+      "vip_status": false,
+      "location": [
+        -899,
+        -776
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_738",
+      "vip_status": true,
+      "location": [
+        637,
+        483
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_739",
+      "vip_status": true,
+      "location": [
+        -999,
+        696
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_740",
+      "vip_status": true,
+      "location": [
+        406,
+        658
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_741",
+      "vip_status": true,
+      "location": [
+        554,
+        279
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_742",
+      "vip_status": true,
+      "location": [
+        -804,
+        -341
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_743",
+      "vip_status": false,
+      "location": [
+        827,
+        619
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_744",
+      "vip_status": true,
+      "location": [
+        -770,
+        493
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_745",
+      "vip_status": false,
+      "location": [
+        967,
+        -831
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_746",
+      "vip_status": false,
+      "location": [
+        -838,
+        778
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_747",
+      "vip_status": true,
+      "location": [
+        670,
+        -913
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_748",
+      "vip_status": true,
+      "location": [
+        207,
+        -952
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_749",
+      "vip_status": true,
+      "location": [
+        -833,
+        297
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_750",
+      "vip_status": true,
+      "location": [
+        -226,
+        -767
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_751",
+      "vip_status": true,
+      "location": [
+        -73,
+        276
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_752",
+      "vip_status": false,
+      "location": [
+        630,
+        638
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_753",
+      "vip_status": true,
+      "location": [
+        413,
+        -883
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_754",
+      "vip_status": true,
+      "location": [
+        871,
+        -416
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_755",
+      "vip_status": true,
+      "location": [
+        942,
+        -347
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_756",
+      "vip_status": false,
+      "location": [
+        -328,
+        401
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_757",
+      "vip_status": true,
+      "location": [
+        426,
+        -899
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_758",
+      "vip_status": false,
+      "location": [
+        323,
+        241
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_759",
+      "vip_status": true,
+      "location": [
+        -609,
+        777
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_760",
+      "vip_status": true,
+      "location": [
+        -973,
+        -495
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_761",
+      "vip_status": false,
+      "location": [
+        291,
+        992
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_762",
+      "vip_status": false,
+      "location": [
+        -782,
+        -155
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_763",
+      "vip_status": false,
+      "location": [
+        -701,
+        -690
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_764",
+      "vip_status": false,
+      "location": [
+        -482,
+        -393
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_765",
+      "vip_status": false,
+      "location": [
+        590,
+        115
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_766",
+      "vip_status": false,
+      "location": [
+        -343,
+        -858
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_767",
+      "vip_status": false,
+      "location": [
+        -244,
+        -746
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_768",
+      "vip_status": false,
+      "location": [
+        -221,
+        608
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_769",
+      "vip_status": true,
+      "location": [
+        863,
+        -139
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_770",
+      "vip_status": true,
+      "location": [
+        882,
+        616
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_771",
+      "vip_status": true,
+      "location": [
+        54,
+        234
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_772",
+      "vip_status": false,
+      "location": [
+        200,
+        -794
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_773",
+      "vip_status": true,
+      "location": [
+        669,
+        388
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_774",
+      "vip_status": false,
+      "location": [
+        415,
+        -160
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_775",
+      "vip_status": true,
+      "location": [
+        861,
+        283
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_776",
+      "vip_status": true,
+      "location": [
+        -566,
+        775
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_777",
+      "vip_status": true,
+      "location": [
+        -49,
+        -384
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_778",
+      "vip_status": true,
+      "location": [
+        386,
+        618
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_779",
+      "vip_status": false,
+      "location": [
+        927,
+        622
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_780",
+      "vip_status": false,
+      "location": [
+        -782,
+        421
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_781",
+      "vip_status": true,
+      "location": [
+        -277,
+        -793
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_782",
+      "vip_status": false,
+      "location": [
+        -138,
+        930
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_783",
+      "vip_status": false,
+      "location": [
+        104,
+        -726
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_784",
+      "vip_status": true,
+      "location": [
+        576,
+        -165
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_785",
+      "vip_status": true,
+      "location": [
+        -200,
+        -855
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_786",
+      "vip_status": true,
+      "location": [
+        796,
+        813
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_787",
+      "vip_status": false,
+      "location": [
+        212,
+        448
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_788",
+      "vip_status": false,
+      "location": [
+        213,
+        896
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_789",
+      "vip_status": false,
+      "location": [
+        926,
+        340
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_790",
+      "vip_status": true,
+      "location": [
+        -712,
+        709
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_791",
+      "vip_status": false,
+      "location": [
+        -538,
+        -929
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_792",
+      "vip_status": true,
+      "location": [
+        864,
+        -352
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_793",
+      "vip_status": true,
+      "location": [
+        -201,
+        -150
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_794",
+      "vip_status": false,
+      "location": [
+        895,
+        -752
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_795",
+      "vip_status": true,
+      "location": [
+        576,
+        -62
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_796",
+      "vip_status": true,
+      "location": [
+        673,
+        296
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_797",
+      "vip_status": true,
+      "location": [
+        947,
+        -115
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_798",
+      "vip_status": false,
+      "location": [
+        643,
+        918
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_799",
+      "vip_status": false,
+      "location": [
+        -486,
+        -27
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_800",
+      "vip_status": false,
+      "location": [
+        43,
+        128
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_801",
+      "vip_status": false,
+      "location": [
+        636,
+        -217
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_802",
+      "vip_status": true,
+      "location": [
+        332,
+        860
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_803",
+      "vip_status": false,
+      "location": [
+        -966,
+        -657
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_804",
+      "vip_status": false,
+      "location": [
+        -572,
+        312
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_805",
+      "vip_status": true,
+      "location": [
+        -71,
+        230
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_806",
+      "vip_status": true,
+      "location": [
+        -598,
+        167
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_807",
+      "vip_status": true,
+      "location": [
+        -566,
+        -859
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_808",
+      "vip_status": true,
+      "location": [
+        -533,
+        -215
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_809",
+      "vip_status": false,
+      "location": [
+        580,
+        314
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_810",
+      "vip_status": true,
+      "location": [
+        195,
+        -778
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_811",
+      "vip_status": true,
+      "location": [
+        595,
+        -539
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_812",
+      "vip_status": false,
+      "location": [
+        457,
+        -621
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_813",
+      "vip_status": false,
+      "location": [
+        -224,
+        -670
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_814",
+      "vip_status": true,
+      "location": [
+        949,
+        -268
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_815",
+      "vip_status": false,
+      "location": [
+        -826,
+        -460
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_816",
+      "vip_status": true,
+      "location": [
+        201,
+        77
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_817",
+      "vip_status": true,
+      "location": [
+        -266,
+        -66
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_818",
+      "vip_status": false,
+      "location": [
+        973,
+        -291
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_819",
+      "vip_status": true,
+      "location": [
+        30,
+        -352
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_820",
+      "vip_status": true,
+      "location": [
+        -393,
+        -959
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_821",
+      "vip_status": false,
+      "location": [
+        -874,
+        9
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_822",
+      "vip_status": false,
+      "location": [
+        523,
+        564
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_823",
+      "vip_status": false,
+      "location": [
+        -577,
+        -715
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_824",
+      "vip_status": false,
+      "location": [
+        979,
+        -428
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_825",
+      "vip_status": true,
+      "location": [
+        -88,
+        -228
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_826",
+      "vip_status": false,
+      "location": [
+        -114,
+        -769
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_827",
+      "vip_status": true,
+      "location": [
+        673,
+        -47
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_828",
+      "vip_status": true,
+      "location": [
+        94,
+        206
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_829",
+      "vip_status": false,
+      "location": [
+        630,
+        -801
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_830",
+      "vip_status": true,
+      "location": [
+        798,
+        -213
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_831",
+      "vip_status": false,
+      "location": [
+        -294,
+        -915
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_832",
+      "vip_status": true,
+      "location": [
+        785,
+        426
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_833",
+      "vip_status": false,
+      "location": [
+        -582,
+        -803
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_834",
+      "vip_status": false,
+      "location": [
+        -425,
+        -861
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_835",
+      "vip_status": true,
+      "location": [
+        187,
+        -432
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_836",
+      "vip_status": false,
+      "location": [
+        -772,
+        154
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_837",
+      "vip_status": true,
+      "location": [
+        928,
+        671
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_838",
+      "vip_status": false,
+      "location": [
+        -858,
+        268
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_839",
+      "vip_status": false,
+      "location": [
+        959,
+        796
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_840",
+      "vip_status": false,
+      "location": [
+        562,
+        952
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_841",
+      "vip_status": true,
+      "location": [
+        947,
+        346
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_842",
+      "vip_status": true,
+      "location": [
+        -777,
+        954
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_843",
+      "vip_status": true,
+      "location": [
+        -547,
+        655
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_844",
+      "vip_status": false,
+      "location": [
+        -616,
+        -855
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_845",
+      "vip_status": false,
+      "location": [
+        -14,
+        311
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_846",
+      "vip_status": false,
+      "location": [
+        600,
+        -447
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_847",
+      "vip_status": true,
+      "location": [
+        432,
+        -572
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_848",
+      "vip_status": true,
+      "location": [
+        159,
+        -528
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_849",
+      "vip_status": false,
+      "location": [
+        -828,
+        180
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_850",
+      "vip_status": false,
+      "location": [
+        -55,
+        -662
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_851",
+      "vip_status": false,
+      "location": [
+        -124,
+        -745
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_852",
+      "vip_status": false,
+      "location": [
+        -871,
+        83
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_853",
+      "vip_status": true,
+      "location": [
+        -90,
+        905
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_854",
+      "vip_status": false,
+      "location": [
+        -261,
+        -463
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_855",
+      "vip_status": false,
+      "location": [
+        -473,
+        216
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_856",
+      "vip_status": true,
+      "location": [
+        809,
+        118
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_857",
+      "vip_status": true,
+      "location": [
+        -489,
+        -426
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_858",
+      "vip_status": true,
+      "location": [
+        -254,
+        415
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_859",
+      "vip_status": false,
+      "location": [
+        184,
+        -262
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_860",
+      "vip_status": false,
+      "location": [
+        560,
+        -610
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_861",
+      "vip_status": true,
+      "location": [
+        -957,
+        174
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_862",
+      "vip_status": false,
+      "location": [
+        -760,
+        -4
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_863",
+      "vip_status": false,
+      "location": [
+        -520,
+        596
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_864",
+      "vip_status": true,
+      "location": [
+        327,
+        -488
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_865",
+      "vip_status": true,
+      "location": [
+        -592,
+        -361
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_866",
+      "vip_status": true,
+      "location": [
+        -27,
+        153
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_867",
+      "vip_status": false,
+      "location": [
+        -543,
+        -219
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_868",
+      "vip_status": true,
+      "location": [
+        63,
+        224
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_869",
+      "vip_status": true,
+      "location": [
+        -30,
+        836
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_870",
+      "vip_status": true,
+      "location": [
+        636,
+        -631
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_871",
+      "vip_status": true,
+      "location": [
+        -783,
+        129
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_872",
+      "vip_status": true,
+      "location": [
+        646,
+        -690
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_873",
+      "vip_status": true,
+      "location": [
+        -87,
+        990
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_874",
+      "vip_status": false,
+      "location": [
+        885,
+        -638
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_875",
+      "vip_status": true,
+      "location": [
+        673,
+        -307
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_876",
+      "vip_status": true,
+      "location": [
+        -986,
+        973
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_877",
+      "vip_status": false,
+      "location": [
+        81,
+        568
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_878",
+      "vip_status": true,
+      "location": [
+        -863,
+        625
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_879",
+      "vip_status": true,
+      "location": [
+        611,
+        173
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_880",
+      "vip_status": false,
+      "location": [
+        21,
+        -757
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_881",
+      "vip_status": true,
+      "location": [
+        -842,
+        252
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_882",
+      "vip_status": false,
+      "location": [
+        -41,
+        513
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_883",
+      "vip_status": false,
+      "location": [
+        -310,
+        -632
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_884",
+      "vip_status": true,
+      "location": [
+        -141,
+        -471
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_885",
+      "vip_status": false,
+      "location": [
+        297,
+        489
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_886",
+      "vip_status": true,
+      "location": [
+        645,
+        -712
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_887",
+      "vip_status": false,
+      "location": [
+        534,
+        222
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_888",
+      "vip_status": true,
+      "location": [
+        385,
+        668
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_889",
+      "vip_status": true,
+      "location": [
+        -53,
+        816
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_890",
+      "vip_status": false,
+      "location": [
+        -184,
+        823
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_891",
+      "vip_status": false,
+      "location": [
+        -118,
+        -873
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_892",
+      "vip_status": true,
+      "location": [
+        781,
+        804
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_893",
+      "vip_status": false,
+      "location": [
+        968,
+        876
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_894",
+      "vip_status": false,
+      "location": [
+        -624,
+        -208
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_895",
+      "vip_status": false,
+      "location": [
+        -935,
+        739
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_896",
+      "vip_status": true,
+      "location": [
+        204,
+        702
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_897",
+      "vip_status": false,
+      "location": [
+        -607,
+        -240
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_898",
+      "vip_status": false,
+      "location": [
+        -622,
+        -356
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_899",
+      "vip_status": false,
+      "location": [
+        830,
+        -234
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_900",
+      "vip_status": false,
+      "location": [
+        457,
+        286
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_901",
+      "vip_status": true,
+      "location": [
+        -454,
+        408
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_902",
+      "vip_status": false,
+      "location": [
+        -820,
+        -330
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_903",
+      "vip_status": false,
+      "location": [
+        -93,
+        654
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_904",
+      "vip_status": true,
+      "location": [
+        -502,
+        -237
+      ],
+      "credit_card": "CARD_14"
+    },
+    {
+      "name": "CUSTOMER_905",
+      "vip_status": false,
+      "location": [
+        -656,
+        -59
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_906",
+      "vip_status": true,
+      "location": [
+        -584,
+        899
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_907",
+      "vip_status": true,
+      "location": [
+        -194,
+        647
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_908",
+      "vip_status": false,
+      "location": [
+        853,
+        182
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_909",
+      "vip_status": true,
+      "location": [
+        -414,
+        929
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_910",
+      "vip_status": true,
+      "location": [
+        -567,
+        -314
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_911",
+      "vip_status": false,
+      "location": [
+        -857,
+        53
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_912",
+      "vip_status": true,
+      "location": [
+        -56,
+        982
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_913",
+      "vip_status": true,
+      "location": [
+        912,
+        -784
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_914",
+      "vip_status": true,
+      "location": [
+        -478,
+        116
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_915",
+      "vip_status": false,
+      "location": [
+        -520,
+        -286
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_916",
+      "vip_status": false,
+      "location": [
+        -629,
+        -49
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_917",
+      "vip_status": false,
+      "location": [
+        246,
+        563
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_918",
+      "vip_status": true,
+      "location": [
+        167,
+        -49
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_919",
+      "vip_status": true,
+      "location": [
+        995,
+        299
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_920",
+      "vip_status": true,
+      "location": [
+        218,
+        -534
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_921",
+      "vip_status": true,
+      "location": [
+        -207,
+        -558
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_922",
+      "vip_status": false,
+      "location": [
+        392,
+        -463
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_923",
+      "vip_status": false,
+      "location": [
+        1000,
+        -229
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_924",
+      "vip_status": true,
+      "location": [
+        560,
+        627
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_925",
+      "vip_status": false,
+      "location": [
+        -536,
+        766
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_926",
+      "vip_status": true,
+      "location": [
+        -81,
+        -682
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_927",
+      "vip_status": true,
+      "location": [
+        -819,
+        -398
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_928",
+      "vip_status": true,
+      "location": [
+        806,
+        -383
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_929",
+      "vip_status": false,
+      "location": [
+        742,
+        920
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_930",
+      "vip_status": true,
+      "location": [
+        560,
+        51
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_931",
+      "vip_status": true,
+      "location": [
+        -724,
+        699
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_932",
+      "vip_status": true,
+      "location": [
+        -116,
+        152
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_933",
+      "vip_status": true,
+      "location": [
+        749,
+        -955
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_934",
+      "vip_status": true,
+      "location": [
+        154,
+        759
+      ],
+      "credit_card": "CARD_9"
+    },
+    {
+      "name": "CUSTOMER_935",
+      "vip_status": false,
+      "location": [
+        984,
+        -863
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_936",
+      "vip_status": false,
+      "location": [
+        -423,
+        -369
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_937",
+      "vip_status": false,
+      "location": [
+        -220,
+        -556
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_938",
+      "vip_status": false,
+      "location": [
+        -827,
+        4
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_939",
+      "vip_status": true,
+      "location": [
+        -33,
+        -340
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_940",
+      "vip_status": true,
+      "location": [
+        -484,
+        -83
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_941",
+      "vip_status": false,
+      "location": [
+        821,
+        -913
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_942",
+      "vip_status": true,
+      "location": [
+        469,
+        497
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_943",
+      "vip_status": false,
+      "location": [
+        776,
+        707
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_944",
+      "vip_status": false,
+      "location": [
+        -727,
+        -479
+      ],
+      "credit_card": "CARD_15"
+    },
+    {
+      "name": "CUSTOMER_945",
+      "vip_status": false,
+      "location": [
+        691,
+        -498
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_946",
+      "vip_status": false,
+      "location": [
+        501,
+        315
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_947",
+      "vip_status": true,
+      "location": [
+        -3,
+        -699
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_948",
+      "vip_status": true,
+      "location": [
+        572,
+        94
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_949",
+      "vip_status": true,
+      "location": [
+        -729,
+        543
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_950",
+      "vip_status": true,
+      "location": [
+        6,
+        50
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_951",
+      "vip_status": true,
+      "location": [
+        100,
+        208
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_952",
+      "vip_status": true,
+      "location": [
+        54,
+        -716
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_953",
+      "vip_status": true,
+      "location": [
+        884,
+        518
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_954",
+      "vip_status": false,
+      "location": [
+        -707,
+        -266
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_955",
+      "vip_status": false,
+      "location": [
+        -24,
+        -841
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_956",
+      "vip_status": false,
+      "location": [
+        803,
+        -699
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_957",
+      "vip_status": true,
+      "location": [
+        383,
+        888
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_958",
+      "vip_status": false,
+      "location": [
+        -6,
+        -579
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_959",
+      "vip_status": true,
+      "location": [
+        862,
+        690
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_960",
+      "vip_status": true,
+      "location": [
+        -688,
+        755
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_961",
+      "vip_status": false,
+      "location": [
+        96,
+        597
+      ],
+      "credit_card": "CARD_10"
+    },
+    {
+      "name": "CUSTOMER_962",
+      "vip_status": true,
+      "location": [
+        -958,
+        961
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_963",
+      "vip_status": true,
+      "location": [
+        519,
+        -775
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_964",
+      "vip_status": true,
+      "location": [
+        780,
+        206
+      ],
+      "credit_card": "CARD_19"
+    },
+    {
+      "name": "CUSTOMER_965",
+      "vip_status": true,
+      "location": [
+        -961,
+        256
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_966",
+      "vip_status": true,
+      "location": [
+        -858,
+        870
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_967",
+      "vip_status": false,
+      "location": [
+        312,
+        -78
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_968",
+      "vip_status": false,
+      "location": [
+        867,
+        -752
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_969",
+      "vip_status": false,
+      "location": [
+        87,
+        -552
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_970",
+      "vip_status": false,
+      "location": [
+        6,
+        44
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_971",
+      "vip_status": false,
+      "location": [
+        -435,
+        905
+      ],
+      "credit_card": "CARD_3"
+    },
+    {
+      "name": "CUSTOMER_972",
+      "vip_status": true,
+      "location": [
+        -759,
+        399
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_973",
+      "vip_status": true,
+      "location": [
+        531,
+        953
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_974",
+      "vip_status": true,
+      "location": [
+        -676,
+        -345
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_975",
+      "vip_status": true,
+      "location": [
+        146,
+        495
+      ],
+      "credit_card": "CARD_13"
+    },
+    {
+      "name": "CUSTOMER_976",
+      "vip_status": true,
+      "location": [
+        982,
+        59
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_977",
+      "vip_status": true,
+      "location": [
+        270,
+        990
+      ],
+      "credit_card": "CARD_11"
+    },
+    {
+      "name": "CUSTOMER_978",
+      "vip_status": true,
+      "location": [
+        -122,
+        16
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_979",
+      "vip_status": false,
+      "location": [
+        876,
+        294
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_980",
+      "vip_status": false,
+      "location": [
+        218,
+        873
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_981",
+      "vip_status": false,
+      "location": [
+        802,
+        -667
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_982",
+      "vip_status": false,
+      "location": [
+        721,
+        -404
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_983",
+      "vip_status": true,
+      "location": [
+        952,
+        305
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_984",
+      "vip_status": false,
+      "location": [
+        -554,
+        754
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_985",
+      "vip_status": false,
+      "location": [
+        426,
+        -247
+      ],
+      "credit_card": "CARD_20"
+    },
+    {
+      "name": "CUSTOMER_986",
+      "vip_status": false,
+      "location": [
+        650,
+        -926
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_987",
+      "vip_status": true,
+      "location": [
+        185,
+        -853
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_988",
+      "vip_status": false,
+      "location": [
+        302,
+        371
+      ],
+      "credit_card": "CARD_18"
+    },
+    {
+      "name": "CUSTOMER_989",
+      "vip_status": false,
+      "location": [
+        179,
+        688
+      ],
+      "credit_card": "CARD_16"
+    },
+    {
+      "name": "CUSTOMER_990",
+      "vip_status": false,
+      "location": [
+        -485,
+        527
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_991",
+      "vip_status": false,
+      "location": [
+        609,
+        -267
+      ],
+      "credit_card": "CARD_2"
+    },
+    {
+      "name": "CUSTOMER_992",
+      "vip_status": true,
+      "location": [
+        850,
+        -191
+      ],
+      "credit_card": "CARD_5"
+    },
+    {
+      "name": "CUSTOMER_993",
+      "vip_status": true,
+      "location": [
+        663,
+        -832
+      ],
+      "credit_card": "CARD_12"
+    },
+    {
+      "name": "CUSTOMER_994",
+      "vip_status": false,
+      "location": [
+        -830,
+        777
+      ],
+      "credit_card": "CARD_17"
+    },
+    {
+      "name": "CUSTOMER_995",
+      "vip_status": false,
+      "location": [
+        406,
+        399
+      ],
+      "credit_card": "CARD_1"
+    },
+    {
+      "name": "CUSTOMER_996",
+      "vip_status": false,
+      "location": [
+        40,
+        -397
+      ],
+      "credit_card": "CARD_6"
+    },
+    {
+      "name": "CUSTOMER_997",
+      "vip_status": false,
+      "location": [
+        746,
+        -437
+      ],
+      "credit_card": "CARD_7"
+    },
+    {
+      "name": "CUSTOMER_998",
+      "vip_status": false,
+      "location": [
+        75,
+        116
+      ],
+      "credit_card": "CARD_8"
+    },
+    {
+      "name": "CUSTOMER_999",
+      "vip_status": false,
+      "location": [
+        -400,
+        407
+      ],
+      "credit_card": "CARD_4"
+    },
+    {
+      "name": "CUSTOMER_1000",
+      "vip_status": true,
+      "location": [
+        -820,
+        -204
+      ],
+      "credit_card": "CARD_19"
+    }
+  ],
+  "concerts": [
+    {
+      "name": "CONCERT_1",
+      "booking_center_location": [
+        336,
+        -644
+      ]
+    },
+    {
+      "name": "CONCERT_2",
+      "booking_center_location": [
+        -544,
+        -499
+      ]
+    },
+    {
+      "name": "CONCERT_3",
+      "booking_center_location": [
+        104,
+        -488
+      ]
+    },
+    {
+      "name": "CONCERT_4",
+      "booking_center_location": [
+        975,
+        382
+      ]
+    },
+    {
+      "name": "CONCERT_5",
+      "booking_center_location": [
+        557,
+        776
+      ]
+    },
+    {
+      "name": "CONCERT_6",
+      "booking_center_location": [
+        -15,
+        -942
+      ]
+    },
+    {
+      "name": "CONCERT_7",
+      "booking_center_location": [
+        927,
+        191
+      ]
+    },
+    {
+      "name": "CONCERT_8",
+      "booking_center_location": [
+        344,
+        229
+      ]
+    },
+    {
+      "name": "CONCERT_9",
+      "booking_center_location": [
+        -989,
+        -808
+      ]
+    },
+    {
+      "name": "CONCERT_10",
+      "booking_center_location": [
+        317,
+        -984
+      ]
+    },
+    {
+      "name": "CONCERT_11",
+      "booking_center_location": [
+        -587,
+        368
+      ]
+    },
+    {
+      "name": "CONCERT_12",
+      "booking_center_location": [
+        -181,
+        272
+      ]
+    },
+    {
+      "name": "CONCERT_13",
+      "booking_center_location": [
+        833,
+        -839
+      ]
+    },
+    {
+      "name": "CONCERT_14",
+      "booking_center_location": [
+        -20,
+        -294
+      ]
+    },
+    {
+      "name": "CONCERT_15",
+      "booking_center_location": [
+        751,
+        644
+      ]
+    },
+    {
+      "name": "CONCERT_16",
+      "booking_center_location": [
+        373,
+        -440
+      ]
+    },
+    {
+      "name": "CONCERT_17",
+      "booking_center_location": [
+        -74,
+        -357
+      ]
+    },
+    {
+      "name": "CONCERT_18",
+      "booking_center_location": [
+        758,
+        -396
+      ]
+    },
+    {
+      "name": "CONCERT_19",
+      "booking_center_location": [
+        244,
+        -725
+      ]
+    },
+    {
+      "name": "CONCERT_20",
+      "booking_center_location": [
+        447,
+        -258
+      ]
+    },
+    {
+      "name": "CONCERT_21",
+      "booking_center_location": [
+        272,
+        -938
+      ]
+    },
+    {
+      "name": "CONCERT_22",
+      "booking_center_location": [
+        591,
+        229
+      ]
+    },
+    {
+      "name": "CONCERT_23",
+      "booking_center_location": [
+        389,
+        -384
+      ]
+    },
+    {
+      "name": "CONCERT_24",
+      "booking_center_location": [
+        274,
+        -765
+      ]
+    },
+    {
+      "name": "CONCERT_25",
+      "booking_center_location": [
+        -45,
+        -483
+      ]
+    },
+    {
+      "name": "CONCERT_26",
+      "booking_center_location": [
+        581,
+        -498
+      ]
+    },
+    {
+      "name": "CONCERT_27",
+      "booking_center_location": [
+        84,
+        -681
+      ]
+    },
+    {
+      "name": "CONCERT_28",
+      "booking_center_location": [
+        -641,
+        876
+      ]
+    },
+    {
+      "name": "CONCERT_29",
+      "booking_center_location": [
+        -681,
+        962
+      ]
+    },
+    {
+      "name": "CONCERT_30",
+      "booking_center_location": [
+        858,
+        -14
+      ]
+    },
+    {
+      "name": "CONCERT_31",
+      "booking_center_location": [
+        -262,
+        -595
+      ]
+    },
+    {
+      "name": "CONCERT_32",
+      "booking_center_location": [
+        -31,
+        248
+      ]
+    },
+    {
+      "name": "CONCERT_33",
+      "booking_center_location": [
+        507,
+        665
+      ]
+    },
+    {
+      "name": "CONCERT_34",
+      "booking_center_location": [
+        -142,
+        693
+      ]
+    },
+    {
+      "name": "CONCERT_35",
+      "booking_center_location": [
+        -437,
+        535
+      ]
+    },
+    {
+      "name": "CONCERT_36",
+      "booking_center_location": [
+        -280,
+        -868
+      ]
+    },
+    {
+      "name": "CONCERT_37",
+      "booking_center_location": [
+        33,
+        302
+      ]
+    },
+    {
+      "name": "CONCERT_38",
+      "booking_center_location": [
+        -404,
+        171
+      ]
+    },
+    {
+      "name": "CONCERT_39",
+      "booking_center_location": [
+        528,
+        -828
+      ]
+    },
+    {
+      "name": "CONCERT_40",
+      "booking_center_location": [
+        173,
+        712
+      ]
+    },
+    {
+      "name": "CONCERT_41",
+      "booking_center_location": [
+        806,
+        -320
+      ]
+    },
+    {
+      "name": "CONCERT_42",
+      "booking_center_location": [
+        -617,
+        832
+      ]
+    },
+    {
+      "name": "CONCERT_43",
+      "booking_center_location": [
+        -87,
+        849
+      ]
+    },
+    {
+      "name": "CONCERT_44",
+      "booking_center_location": [
+        737,
+        -809
+      ]
+    },
+    {
+      "name": "CONCERT_45",
+      "booking_center_location": [
+        404,
+        -661
+      ]
+    },
+    {
+      "name": "CONCERT_46",
+      "booking_center_location": [
+        624,
+        286
+      ]
+    },
+    {
+      "name": "CONCERT_47",
+      "booking_center_location": [
+        -42,
+        622
+      ]
+    },
+    {
+      "name": "CONCERT_48",
+      "booking_center_location": [
+        336,
+        -795
+      ]
+    },
+    {
+      "name": "CONCERT_49",
+      "booking_center_location": [
+        774,
+        82
+      ]
+    },
+    {
+      "name": "CONCERT_50",
+      "booking_center_location": [
+        -422,
+        490
+      ]
+    },
+    {
+      "name": "CONCERT_51",
+      "booking_center_location": [
+        844,
+        -696
+      ]
+    },
+    {
+      "name": "CONCERT_52",
+      "booking_center_location": [
+        442,
+        -85
+      ]
+    },
+    {
+      "name": "CONCERT_53",
+      "booking_center_location": [
+        606,
+        -76
+      ]
+    },
+    {
+      "name": "CONCERT_54",
+      "booking_center_location": [
+        -921,
+        665
+      ]
+    },
+    {
+      "name": "CONCERT_55",
+      "booking_center_location": [
+        -467,
+        432
+      ]
+    },
+    {
+      "name": "CONCERT_56",
+      "booking_center_location": [
+        522,
+        825
+      ]
+    },
+    {
+      "name": "CONCERT_57",
+      "booking_center_location": [
+        -204,
+        466
+      ]
+    },
+    {
+      "name": "CONCERT_58",
+      "booking_center_location": [
+        -909,
+        884
+      ]
+    },
+    {
+      "name": "CONCERT_59",
+      "booking_center_location": [
+        122,
+        -277
+      ]
+    },
+    {
+      "name": "CONCERT_60",
+      "booking_center_location": [
+        -561,
+        -504
+      ]
+    },
+    {
+      "name": "CONCERT_61",
+      "booking_center_location": [
+        507,
+        406
+      ]
+    },
+    {
+      "name": "CONCERT_62",
+      "booking_center_location": [
+        365,
+        -684
+      ]
+    },
+    {
+      "name": "CONCERT_63",
+      "booking_center_location": [
+        901,
+        -955
+      ]
+    },
+    {
+      "name": "CONCERT_64",
+      "booking_center_location": [
+        -919,
+        -811
+      ]
+    },
+    {
+      "name": "CONCERT_65",
+      "booking_center_location": [
+        -920,
+        149
+      ]
+    },
+    {
+      "name": "CONCERT_66",
+      "booking_center_location": [
+        -467,
+        792
+      ]
+    },
+    {
+      "name": "CONCERT_67",
+      "booking_center_location": [
+        -325,
+        373
+      ]
+    },
+    {
+      "name": "CONCERT_68",
+      "booking_center_location": [
+        99,
+        291
+      ]
+    },
+    {
+      "name": "CONCERT_69",
+      "booking_center_location": [
+        304,
+        15
+      ]
+    },
+    {
+      "name": "CONCERT_70",
+      "booking_center_location": [
+        -601,
+        65
+      ]
+    },
+    {
+      "name": "CONCERT_71",
+      "booking_center_location": [
+        565,
+        -620
+      ]
+    },
+    {
+      "name": "CONCERT_72",
+      "booking_center_location": [
+        -1,
+        735
+      ]
+    },
+    {
+      "name": "CONCERT_73",
+      "booking_center_location": [
+        -429,
+        167
+      ]
+    },
+    {
+      "name": "CONCERT_74",
+      "booking_center_location": [
+        124,
+        824
+      ]
+    },
+    {
+      "name": "CONCERT_75",
+      "booking_center_location": [
+        -650,
+        -328
+      ]
+    },
+    {
+      "name": "CONCERT_76",
+      "booking_center_location": [
+        331,
+        129
+      ]
+    },
+    {
+      "name": "CONCERT_77",
+      "booking_center_location": [
+        363,
+        336
+      ]
+    },
+    {
+      "name": "CONCERT_78",
+      "booking_center_location": [
+        965,
+        -40
+      ]
+    },
+    {
+      "name": "CONCERT_79",
+      "booking_center_location": [
+        -47,
+        -200
+      ]
+    },
+    {
+      "name": "CONCERT_80",
+      "booking_center_location": [
+        -731,
+        459
+      ]
+    },
+    {
+      "name": "CONCERT_81",
+      "booking_center_location": [
+        766,
+        770
+      ]
+    },
+    {
+      "name": "CONCERT_82",
+      "booking_center_location": [
+        -350,
+        379
+      ]
+    },
+    {
+      "name": "CONCERT_83",
+      "booking_center_location": [
+        72,
+        -498
+      ]
+    },
+    {
+      "name": "CONCERT_84",
+      "booking_center_location": [
+        68,
+        -35
+      ]
+    },
+    {
+      "name": "CONCERT_85",
+      "booking_center_location": [
+        -517,
+        362
+      ]
+    },
+    {
+      "name": "CONCERT_86",
+      "booking_center_location": [
+        640,
+        -342
+      ]
+    },
+    {
+      "name": "CONCERT_87",
+      "booking_center_location": [
+        116,
+        -403
+      ]
+    },
+    {
+      "name": "CONCERT_88",
+      "booking_center_location": [
+        -668,
+        -407
+      ]
+    },
+    {
+      "name": "CONCERT_89",
+      "booking_center_location": [
+        -704,
+        519
+      ]
+    },
+    {
+      "name": "CONCERT_90",
+      "booking_center_location": [
+        540,
+        -846
+      ]
+    },
+    {
+      "name": "CONCERT_91",
+      "booking_center_location": [
+        278,
+        -621
+      ]
+    },
+    {
+      "name": "CONCERT_92",
+      "booking_center_location": [
+        -832,
+        646
+      ]
+    },
+    {
+      "name": "CONCERT_93",
+      "booking_center_location": [
+        -229,
+        -968
+      ]
+    },
+    {
+      "name": "CONCERT_94",
+      "booking_center_location": [
+        -42,
+        121
+      ]
+    },
+    {
+      "name": "CONCERT_95",
+      "booking_center_location": [
+        479,
+        747
+      ]
+    },
+    {
+      "name": "CONCERT_96",
+      "booking_center_location": [
+        608,
+        125
+      ]
+    },
+    {
+      "name": "CONCERT_97",
+      "booking_center_location": [
+        -142,
+        -239
+      ]
+    },
+    {
+      "name": "CONCERT_98",
+      "booking_center_location": [
+        -844,
+        287
+      ]
+    },
+    {
+      "name": "CONCERT_99",
+      "booking_center_location": [
+        149,
+        862
+      ]
+    },
+    {
+      "name": "CONCERT_100",
+      "booking_center_location": [
+        654,
+        -6
+      ]
+    }
+  ],
+  "priority": {
+    "CARD_1": "CONCERT_52",
+    "CARD_2": "CONCERT_69",
+    "CARD_3": "CONCERT_81",
+    "CARD_4": "CONCERT_86",
+    "CARD_5": "CONCERT_88",
+    "CARD_6": "CONCERT_50",
+    "CARD_7": "CONCERT_80",
+    "CARD_8": "CONCERT_76",
+    "CARD_9": "CONCERT_24",
+    "CARD_10": "CONCERT_16",
+    "CARD_11": "CONCERT_19",
+    "CARD_12": "CONCERT_55",
+    "CARD_13": "CONCERT_68",
+    "CARD_14": "CONCERT_30",
+    "CARD_15": "CONCERT_50",
+    "CARD_16": "CONCERT_52",
+    "CARD_17": "CONCERT_91",
+    "CARD_18": "CONCERT_63",
+    "CARD_19": "CONCERT_32",
+    "CARD_20": "CONCERT_28"
+  }
+}
