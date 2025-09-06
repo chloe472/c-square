@@ -1,23 +1,23 @@
-'''
+
 import logging
 import socket
 
 from routes import app
 
 logger = logging.getLogger(__name__)
-'''
+
 '''
 @app.route('/square', methods=['GET'])
 
 def default_route():
     return 'Python Template'
 '''
-'''
-@app.get("/")
-def root():
-    return "Spy Network API is live. Use POST /investigate", 200
 
-@app.get("/health")
+@app.route("/", methods=["GET"])
+def root():
+    return "OK", 200
+
+@app.route("/health", methods=["GET"])
 def health():
     return "OK", 200
 
@@ -63,3 +63,4 @@ logger.setLevel(logging.INFO)
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
+'''
