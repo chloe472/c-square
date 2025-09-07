@@ -1,0 +1,43 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage and test reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Flask instance folder
+instance/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
